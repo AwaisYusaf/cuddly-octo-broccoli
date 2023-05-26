@@ -15,6 +15,7 @@ export default function Page() {
           <div className={`${greatVibes.className} z-30 lg:ml-10 ml-0`}>
             <motion.h1
               initial={{ x: 200, opacity: 0 }}
+              viewport={{ once: true }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 1 }}
               className="lg:text-8xl md:text-7xl text-6xl z-30 text-white"
@@ -24,6 +25,7 @@ export default function Page() {
           </div>
           <motion.p
             initial={{ x: -200, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
             className="text-gray-100 text-lg z-30 leading-8 "
@@ -43,6 +45,7 @@ export default function Page() {
 
           <motion.p
             initial={{ x: 200, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
             className="z-30 text-gray-100 text-lg leading-8"
@@ -62,6 +65,7 @@ export default function Page() {
 
           <motion.p
             initial={{ x: -200, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
             className="z-30 text-gray-100 text-lg leading-8"
@@ -87,6 +91,7 @@ export default function Page() {
 
           <motion.p
             initial={{ x: 200, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
             className="z-30 text-gray-100 text-lg leading-8"
@@ -112,6 +117,7 @@ export default function Page() {
 
           <motion.p
             initial={{ x: -200, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
             className="z-30 text-gray-100 text-lg leading-8"
@@ -132,6 +138,7 @@ export default function Page() {
 
           <motion.p
             initial={{ x: 200, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
             className="z-30 text-gray-100 text-lg leading-8"
@@ -159,6 +166,7 @@ export default function Page() {
 
           <motion.p
             initial={{ x: -200, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
             className="z-30 text-gray-100 text-lg leading-8"
@@ -182,6 +190,7 @@ export default function Page() {
 
           <motion.p
             initial={{ x: 200, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
             className="z-30 text-gray-100 text-lg leading-8"
@@ -203,6 +212,7 @@ export default function Page() {
 
           <motion.p
             initial={{ x: -200, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
             className="z-30 text-gray-100 text-lg leading-8"
@@ -226,6 +236,7 @@ export default function Page() {
           >
             <motion.h1
               initial={{ x: 200, opacity: 0 }}
+              viewport={{ once: true }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 1 }}
               className="lg:text-7xl md:text-6xl text-5xl z-30 text-white"
@@ -236,6 +247,7 @@ export default function Page() {
           </div>
           <motion.p
             initial={{ x: -200, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
             className="text-gray-100 text-lg z-30 leading-8 "
@@ -265,6 +277,7 @@ export default function Page() {
 
           <motion.p
             initial={{ x: -200, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
             className="z-30 text-gray-100 text-lg leading-8"
@@ -281,6 +294,7 @@ export default function Page() {
           <div className={`${greatVibes.className} z-30 lg:ml-10 ml-0`}>
             <motion.h1
               initial={{ x: 200, opacity: 0 }}
+              viewport={{ once: true }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 1 }}
               className="lg:text-7xl md:text-6xl text-5xl z-30 text-white"
@@ -291,6 +305,7 @@ export default function Page() {
 
           <motion.p
             initial={{ x: -200, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
             className="z-30 text-gray-100 text-lg leading-8"
@@ -303,6 +318,7 @@ export default function Page() {
 
           <motion.p
             initial={{ x: 200, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
             className="z-30 text-gray-100 text-lg leading-8"
