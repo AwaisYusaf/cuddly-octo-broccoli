@@ -1,12 +1,19 @@
 import Image from "next/image";
 import React from "react";
+import { Hepta_Slab } from "next/font/google";
+const heptaSlab = Hepta_Slab({
+  weight: ["300", "400", "500", "600", "800"],
+  subsets: ["latin"],
+});
 
 type Props = {};
 
 export default function AboutMeLanding({}: Props) {
   return (
     <div className="flex flex-col space-y-12 w-[85%] mx-auto">
-      <h1 className="text-2xl font-bold">— About Me</h1>
+      <h1 className={`${heptaSlab.className} text-3xl font-semibold`}>
+        — About Me
+      </h1>
       <Image
         src="/assets/about-me-landing.jpg"
         width={500}
@@ -15,7 +22,9 @@ export default function AboutMeLanding({}: Props) {
         className="rounded-full object-cover w-[200px] h-[200px]"
       />
       <div className="flex flex-col space-y-6">
-        <h2 className="text-2xl font-bold">Hello, nice to meet you!</h2>
+        <h2 className={`${heptaSlab.className} text-3xl font-semibold`}>
+          Hello, nice to meet you!
+        </h2>
         <p className="text-lg leading-8 text-gray-500">
           Lisa herself came from a organized upbringing where she nurtured up in
           a family that was not close, did not show or express love. Mother and

@@ -1,5 +1,6 @@
+"use client";
 import React from "react";
-
+import { motion } from "framer-motion";
 type Props = {};
 
 export default function HeroSection({}: Props) {
@@ -15,11 +16,23 @@ export default function HeroSection({}: Props) {
             </strong>
           </h2>
 
-          <h3 className="z-20 font-extrabold uppercase text-white text-xl">
+          <motion.h3
+            initial={{ y: -50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            className="z-20 font-extrabold uppercase text-white text-xl"
+          >
             LIFE COACHING WITH A TWIST!
-          </h3>
+          </motion.h3>
 
-          <p className="z-20 w-[50%] text-white text-lg">
+          <motion.p
+            initial={{ y: 100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1, delay: 0.5 }}
+            viewport={{ once: true }}
+            className="z-20 w-[50%] text-white text-lg"
+          >
             We are here to lend that helping hand to anyone who is suffering
             from isolation or loneliness. You might need someone to talk to when
             you are having a rough day or you might need one of our expert
@@ -27,7 +40,7 @@ export default function HeroSection({}: Props) {
             towards something better and more positive. Or you might need some
             healing exercises to help you feel more calm and centred during a
             highly stressful time in your life.
-          </p>
+          </motion.p>
         </div>
       </div>
       {/* <HeroEnd /> */}

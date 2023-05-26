@@ -1,4 +1,9 @@
 import React from "react";
+import { Hepta_Slab } from "next/font/google";
+const heptaSlab = Hepta_Slab({
+  weight: ["300", "400", "500", "600", "800"],
+  subsets: ["latin"],
+});
 
 type Props = {};
 
@@ -8,7 +13,7 @@ export default function LandingAbout({}: Props) {
       <div className="absolute w-full h-full z-0 bg-white/70"></div>
       <div className="grid grid-cols-2 gap-4 py-20 w-[85%] mx-auto">
         <div className="z-50 flex flex-col space-y-5">
-          <h2 className="text-4xl font-medium">
+          <h2 className={`${heptaSlab.className} text-4xl font-semibold`}>
             {"LISA’S"} EXPERIENCE AND EDUCATION
           </h2>
           <p className="text-gray-500 text-lg flex-1">
@@ -28,7 +33,9 @@ export default function LandingAbout({}: Props) {
         </div>
 
         <div className="z-50 flex flex-col space-y-5">
-          <h2 className="text-4xl font-medium">{"Lisa's"} Attributes</h2>
+          <h2 className={`${heptaSlab.className} text-4xl font-semibold`}>
+            {"LISA'S"} ATTRIBUTES
+          </h2>
           <p className="text-gray-500 text-lg flex-1">
             Lisa is a very caring, supportive, patient, and empathetic person
             who really wants to help people. is encouraging and it goes a long
