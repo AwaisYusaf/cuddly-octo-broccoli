@@ -6,8 +6,8 @@ type Props = {};
 export default function SectionTwo({}: Props) {
   return (
     <div className="w-[85%] mx-auto flex flex-col space-y-6">
-      <div className="flex">
-        <div className="flex items-center basis-1/2">
+      <div className="flex lg:flex-row flex-col">
+        <div className="flex items-center justify-center lg:justify-start basis-1/2">
           <Image
             src="/assets/section2-img1.jpg"
             alt=""
@@ -33,7 +33,7 @@ export default function SectionTwo({}: Props) {
         </div>
       </div>
 
-      <div className="flex">
+      <div className="flex flex-col lg:flex-row">
         <div className="basis-1/2 flex flex-col space-y-3">
           <p className="text-lg leading-8 text-gray-400">
             {
@@ -62,7 +62,7 @@ export default function SectionTwo({}: Props) {
             }
           </p>
         </div>
-        <div className="flex items-center justify-end basis-1/2">
+        <div className="flex items-center justify-center lg:justify-end basis-1/2">
           <Image
             src="/assets/section2-img2.jpg"
             alt=""

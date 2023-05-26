@@ -6,7 +6,7 @@ import { MdLocationOn } from "react-icons/md";
 export default function Page() {
   return (
     <main>
-      <Header />
+      <Header selected="contact" />
       <div className="w-[85%] mx-auto grid grid-cols-3 gap-x-6 gap-y-4 py-12">
         <div
           className="py-4 flex flex-col space-y-2 rounded-md items-center text-center

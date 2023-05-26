@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 export default function Page() {
   return (
     <main>
-      <Header />
+      <Header selected="packages" />
       <div className="w-[70%] mx-auto py-16 flex flex-col space-y-12">
         <h1 className="text-5xl font-semibold text-center">Packages</h1>
         <form className="grid grid-cols-4 gap-x-8 gap-y-6">
