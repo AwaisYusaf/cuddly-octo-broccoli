@@ -28,7 +28,7 @@ export default function Header({}: Props) {
             </p>
           </Link>
           <Link
-            href="/"
+            href="/lisa-story"
             className="relative border-l h-[100px]  flex items-center justify-center group px-5 text-center"
           >
             <div className="absolute top-0 bg-black z-10 h-[120px] w-full transition-transform duration-300 transform-translate -translate-y-48 group-hover:translate-y-0"></div>
@@ -38,7 +38,7 @@ export default function Header({}: Props) {
           </Link>
 
           <Link
-            href="/"
+            href="/packages"
             className="relative border-l h-[100px]  flex items-center justify-center group px-5 text-center"
           >
             <div className="absolute top-0 bg-black z-10 h-[120px] w-full transition-transform duration-300 transform-translate -translate-y-48 group-hover:translate-y-0"></div>
@@ -47,7 +47,7 @@ export default function Header({}: Props) {
             </p>
           </Link>
           <Link
-            href="/"
+            href="/contact"
             className="relative border-x h-[100px] flex  items-center justify-center group px-5 text-center"
           >
             <div className="absolute top-0 bg-black z-10 h-[120px] w-full transition-transform duration-300 transform-translate -translate-y-48 group-hover:translate-y-0"></div>

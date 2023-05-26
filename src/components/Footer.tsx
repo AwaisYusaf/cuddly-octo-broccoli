@@ -23,7 +23,7 @@ export default function Footer({}: Props) {
       <div className="w-[80%] mx-auto grid gap-8 grid-cols-3">
         <div className="flex flex-col space-y-5">
           <h1 className="font-medium text-3xl">About Us</h1>
-          <p className="leading-8 text-gray-500">
+          <p className="leading-8 text-gray-500 w-[90%]">
             Lisa successfully built her business up from scratch to working full
             time, 7 days a week. She did this until one day in 2017, Lisa’s
             personal life took a very hard hit.
