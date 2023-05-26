@@ -6,10 +6,10 @@ type Props = {};
 export default function HeroSection({}: Props) {
   return (
     <>
-      <div className="relative bg-[url('/assets/hero-img.png')] min-h-[90vh] bg-no-repeat bg-cover bg-top bg-fixed flex flex-col justify-center">
+      <div className="relative bg-[url('/assets/hero-img.png')] min-h-fit py-10 lg:py-0 lg:min-h-[90vh] bg-no-repeat bg-cover bg-top bg-fixed flex flex-col justify-center">
         <div className="absolute bg-transparent bg-hero-gradient w-full h-full z-10"></div>
-        <div className="w-[85%] mx-auto flex flex-col space-y-6">
-          <h2 className="z-20 text-[#04ABD3] text-6xl w-[55%]">
+        <div className="w-[90%] lg:w-[85%] mx-auto flex flex-col space-y-6">
+          <h2 className="z-20 text-[#04ABD3] text-5xl lg:text-6xl w-[90%] md:w-[70%] lg:w-[55%]">
             {"You've"} Got A Friend{" "}
             <strong>
               Chat and <span className="text-[#B30E4A]">Mentoring</span> Service
@@ -21,7 +21,7 @@ export default function HeroSection({}: Props) {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className="z-20 font-extrabold uppercase text-white text-xl"
+            className="z-20 font-extrabold uppercase text-white text-base lg:text-xl"
           >
             LIFE COACHING WITH A TWIST!
           </motion.h3>
@@ -31,7 +31,7 @@ export default function HeroSection({}: Props) {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
             viewport={{ once: true }}
-            className="z-20 w-[50%] text-white text-lg"
+            className="z-20 w-full mx-auto lg:mx-0 lg:w-[50%] text-white text-base lg:text-lg"
           >
             We are here to lend that helping hand to anyone who is suffering
             from isolation or loneliness. You might need someone to talk to when

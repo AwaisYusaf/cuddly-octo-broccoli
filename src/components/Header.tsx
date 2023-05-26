@@ -19,7 +19,7 @@ export default function Header({ selected }: Props) {
             className="w-[200px]"
           />
         </Link>
-        <nav className="pr-4 flex items-center h-full font-semibold">
+        <nav className="pr-4 hidden lg:flex items-center h-full font-semibold ">
           <Link
             href="/"
             className="relative border-l h-[100px] flex items-center justify-center group px-5 text-center"

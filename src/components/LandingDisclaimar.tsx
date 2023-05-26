@@ -6,12 +6,12 @@ export default function LandingDisclaimar({}: Props) {
   return (
     <div className="relative bg-[url('/assets/disclaimar.jpg')] bg-cover bg-top bg-fixed bg-no-repeat">
       <div className="absolute w-full bg-[#444745]/80 h-full z-10"></div>
-      <div className="w-[76%] mx-auto flex flex-col items-center py-20">
+      <div className="w-[90%] md:w-[85%] lg:w-[76%] mx-auto flex flex-col items-center py-20">
         <h1 className="text-white font-semibold text-5xl z-20 mb-8">
           DISCLAIMER
         </h1>
         <ul
-          className="text-gray-300 leading-8 text-lg z-20 list-outside list-disc 
+          className="text-gray-300 leading-8 text-base lg:text-lg z-20 list-outside list-disc 
         flex flex-col space-y-6"
         >
           <li className="">

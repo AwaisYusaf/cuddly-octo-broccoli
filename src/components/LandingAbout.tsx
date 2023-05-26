@@ -11,8 +11,8 @@ export default function LandingAbout({}: Props) {
   return (
     <div className="relative z-20 bg-[url('/assets/landing-about.jpg')] bg-cover bg-center bg-no-repeat">
       <div className="absolute w-full h-full z-0 bg-white/70"></div>
-      <div className="grid grid-cols-2 gap-4 py-20 w-[85%] mx-auto">
-        <div className="z-50 flex flex-col space-y-5">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 py-20 w-[90%] lg:w-[85%] mx-auto space-y-4">
+        <div className="z-50 flex flex-col space-y-5 ">
           <h2 className={`${heptaSlab.className} text-4xl font-semibold`}>
             {"LISA’S"} EXPERIENCE AND EDUCATION
           </h2>
@@ -32,7 +32,7 @@ export default function LandingAbout({}: Props) {
           </button>
         </div>
 
-        <div className="z-50 flex flex-col space-y-5">
+        <div className="z-50 flex flex-col space-y-5 ">
           <h2 className={`${heptaSlab.className} text-4xl font-semibold`}>
             {"LISA'S"} ATTRIBUTES
           </h2>

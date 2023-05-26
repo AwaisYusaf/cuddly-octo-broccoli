@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Hepta_Slab } from "next/font/google";
+import Link from "next/link";
 const heptaSlab = Hepta_Slab({
   weight: ["300", "400", "500", "600", "800"],
   subsets: ["latin"],
@@ -10,7 +11,7 @@ type Props = {};
 
 export default function AboutMeLanding({}: Props) {
   return (
-    <div className="flex flex-col space-y-12 w-[85%] mx-auto">
+    <div className="flex flex-col space-y-8 lg:space-y-12 w-[90%] lg:w-[85%] mx-auto">
       <h1 className={`${heptaSlab.className} text-3xl font-semibold`}>
         — About Me
       </h1>
@@ -19,7 +20,7 @@ export default function AboutMeLanding({}: Props) {
         width={500}
         height={500}
         alt=""
-        className="rounded-full object-cover w-[200px] h-[200px]"
+        className="rounded-full object-cover w-[110px] h-[110px] lg:w-[200px] lg:h-[200px]"
       />
       <div className="flex flex-col space-y-6">
         <h2 className={`${heptaSlab.className} text-3xl font-semibold`}>
@@ -51,9 +52,12 @@ export default function AboutMeLanding({}: Props) {
           over the years has been in bands and even sang live at multiple music
           venues in front of audiences.
         </p>
-        <button className="self-start bg-[#9794C9] rounded uppercase px-8 py-2 text-white font-semibold">
+        <Link
+          href="/lisa-story"
+          className="self-start bg-[#9794C9] rounded uppercase px-8 py-2 text-white font-semibold"
+        >
           Read More
-        </button>
+        </Link>
       </div>
     </div>
   );

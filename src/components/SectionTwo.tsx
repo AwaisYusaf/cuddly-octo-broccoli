@@ -1,11 +1,16 @@
 import Image from "next/image";
 import React from "react";
+import { Hepta_Slab } from "next/font/google";
+const heptaSlab = Hepta_Slab({
+  weight: ["300", "400", "500", "600", "800"],
+  subsets: ["latin"],
+});
 
 type Props = {};
 
 export default function SectionTwo({}: Props) {
   return (
-    <div className="w-[85%] mx-auto flex flex-col space-y-6">
+    <div className="w-[90%] lg:w-[85%] mx-auto flex flex-col space-y-6 py-8 lg:py-0">
       <div className="flex lg:flex-row flex-col">
         <div className="flex items-center justify-center lg:justify-start basis-1/2">
           <Image
@@ -16,8 +21,9 @@ export default function SectionTwo({}: Props) {
             height={400}
           />
         </div>
+
         <div className="basis-1/2 flex flex-col space-y-3">
-          <h2 className=" text-3xl my-4 font-bold">
+          <h2 className={`${heptaSlab.className} text-3xl my-4 font-semibold`}>
             Helping individuals with PTSD, Anxiety, Depression and Loneliness.
           </h2>
           <p className="text-lg leading-8 text-gray-400">
