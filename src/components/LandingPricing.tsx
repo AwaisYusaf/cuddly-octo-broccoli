@@ -5,7 +5,7 @@ type Props = {};
 export default function LandingPricing({}: Props) {
   return (
     <div className="pricingGradient">
-      <div className="w-[85%] text-white mx-auto flex flex-col items-center py-20">
+      <div className="w-[85%] text-white mx-auto hidden lg:flex flex-col items-center py-20">
         <h1 className="text-7xl font-medium mb-8">Pricing</h1>
         <p className="text-lg mb-12 text-center leading-8">
           At You’ve Got a Friend Coaching and Mentoring, we believe that
