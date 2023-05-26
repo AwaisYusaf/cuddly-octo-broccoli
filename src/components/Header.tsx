@@ -8,7 +8,7 @@ type Props = {
 
 export default function Header({ selected }: Props) {
   return (
-    <div className="border-b">
+    <div className="border-b z-30">
       <header className="w-[85%] mx-auto flex items-center justify-between h-full">
         <Link href="/">
           <Image
@@ -25,7 +25,7 @@ export default function Header({ selected }: Props) {
             className="relative border-l h-[100px] flex items-center justify-center group px-5 text-center"
           >
             <div
-              className={`absolute top-0  z-10 h-[120px] w-full 
+              className={`absolute top-0  z-20 h-[120px] w-full 
             transition-transform duration-300 transform-translate 
             ${
               selected == "home"
@@ -49,7 +49,7 @@ export default function Header({ selected }: Props) {
                   : "-translate-y-48 group-hover:translate-y-0 bg-black"
               }
               
-              z-10 h-[120px] w-full transition-transform duration-300 transform-translate`}
+              z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
             ></div>
             <p className="z-50 text-center w-full group-hover:text-white">
               Lisa Story
@@ -65,7 +65,7 @@ export default function Header({ selected }: Props) {
                 selected == "packages"
                   ? "translate-y-0 bg-red-600"
                   : "-translate-y-48 group-hover:translate-y-0 bg-black"
-              } top-0 z-10 h-[120px] w-full transition-transform duration-300 transform-translate`}
+              } top-0 z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
             ></div>
             <p className="z-50 text-center w-full group-hover:text-white">
               Packages
@@ -80,7 +80,7 @@ export default function Header({ selected }: Props) {
                 selected == "contact"
                   ? "translate-y-0 bg-red-600"
                   : "-translate-y-48 group-hover:translate-y-0 bg-black"
-              }  z-10 h-[120px] w-full transition-transform duration-300 transform-translate`}
+              }  z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
             ></div>
             <p className="z-50 text-center w-full group-hover:text-white">
               Contact

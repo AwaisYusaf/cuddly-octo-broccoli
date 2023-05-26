@@ -217,6 +217,103 @@ export default function Page() {
           </motion.p>
         </div>
       </div>
+
+      <div className="relative overflow-x-hidden bg-[url('/assets/landing-about.jpg')] bg-cover bg-center bg-no-repeat">
+        <div className="absolute w-full h-full bg-black/80 z-10" />
+        <div className="w-[85%]  md:w-[80%] lg:w-[75%] mx-auto lg:text-start text-center flex flex-col space-y-14 py-20">
+          <div
+            className={`${greatVibes.className} z-30 lg:text-start text-center lg:ml-10 ml-0`}
+          >
+            <motion.h1
+              initial={{ x: 200, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1 }}
+              className="lg:text-7xl md:text-6xl text-5xl z-30 text-white"
+            >
+              {/* LISA’S EXPERIENCE AND EDUCATION */}
+              Lisa’s Experience and Education
+            </motion.h1>
+          </div>
+          <motion.p
+            initial={{ x: -200, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            className="text-gray-100 text-lg z-30 leading-8 "
+          >
+            Lisa attended college and successfully completed the Career
+            Development Practitioner program and earned her certification. It
+            gives people the tools and skills to help them make career and
+            career decisions. She is also good at writing resumes and cover
+            letters. Lisa became completely self-employed in 2015. She took a
+            self-employed course and learned everything she needed to start a
+            legitimate business. After completing this course of hers, she
+            founded her own driving school. She researched everything she needed
+            to start this business and then started it all on her own. She built
+            her own website from scratch, learned all about her necessary
+            advertising tools, and hired her SEO person. After that, she managed
+            all calls and sales, developed unique pricing and packages, and
+            marketing for the company, and even handled all administration and
+            bookkeeping. I planned all my clients, billing, and even payroll
+            while hiring. She takes care of all of her clients and made sure
+            that excellent customer service is paramount to the success of any
+            business. She managed and ran this business until 2022 when she
+            again decided a change was needed and became certified in life
+            coaching. She has also attended and taken numerous self-development
+            courses, including Spiritual Gifts (knowing your God-given gifts and
+            using them in the world to help others).
+          </motion.p>
+
+          <motion.p
+            initial={{ x: -200, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            className="z-30 text-gray-100 text-lg leading-8"
+          >
+            She has delved deep into everything related to narcissistic abuse.
+            She has read numerous books, attended classes, and watched hundreds
+            of videos. She is very knowledgeable on this topic so she can help
+            you in this area too. Lisa’s current course is called her
+            Neuro-Wellness. A course on how to tame an overstimulated and
+            stressed brain. She has a grab bag of different things to draw from
+            the courses she took to help you during your sessions with her.
+          </motion.p>
+
+          <div className={`${greatVibes.className} z-30 lg:ml-10 ml-0`}>
+            <motion.h1
+              initial={{ x: 200, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1 }}
+              className="lg:text-7xl md:text-6xl text-5xl z-30 text-white"
+            >
+              {"Lisa’s Attributes"}
+            </motion.h1>
+          </div>
+
+          <motion.p
+            initial={{ x: -200, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            className="z-30 text-gray-100 text-lg leading-8"
+          >
+            She has delved deep into everything related to narcissistic abuse.
+            She has read numerous books, attended classes, and watched hundreds
+            of videos. She is very knowledgeable on this topic so she can help
+            you in this area too.
+          </motion.p>
+
+          <motion.p
+            initial={{ x: 200, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            className="z-30 text-gray-100 text-lg leading-8"
+          >
+            Lisa’s current course is called her Neuro-Wellness. A course on how
+            to tame an overstimulated and stressed brain. She has a grab bag of
+            different things to draw from the courses she took to help you
+            during your sessions with her.
+          </motion.p>
+        </div>
+      </div>
     </main>
   );
 }
