@@ -1,24 +1,63 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import { Fade as Hamburger } from "hamburger-react";
+import { motion } from "framer-motion";
 
 type Props = {
   selected: string;
 };
 
 export default function Header({ selected }: Props) {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="border-b z-30">
-      <header className="w-[85%] mx-auto flex items-center justify-between h-full">
-        <Link href="/">
+      <header className="w-[95%] lg:w-[85%] mx-auto flex items-center justify-between h-full bg-white">
+        <Link href="/" className="z-50">
           <Image
             src="/assets/logo.png"
             alt=""
             width="600"
             height="300"
-            className="w-[200px]"
+            className="w-[200px] z-50 bg-white"
           />
         </Link>
+        <div className="flex lg:hidden">
+          <Hamburger toggled={menuOpen} toggle={setMenuOpen} />
+          <motion.div
+            initial={{ y: -200 }}
+            whileInView={{ y: 0 }}
+            className={`left-0 ${
+              menuOpen ? "flex" : "hidden"
+            } flex-col px-4 py-6 bg-white top-24 z-30 absolute h-[400px]  w-full`}
+          >
+            <Link
+              href="/"
+              className="text-2xl  border-b border-gray-300 py-3 font-medium"
+            >
+              Home
+            </Link>
+            <Link
+              href="/lisa-story"
+              className="text-2xl  border-b border-gray-300 py-3 font-medium"
+            >
+              Lisa Story
+            </Link>
+            <Link
+              href="/packages"
+              className="text-2xl border-b border-gray-300 py-3  font-medium"
+            >
+              Packages
+            </Link>
+            <Link
+              href="/contact"
+              className="text-2xl  border-b border-gray-300 py-3 font-medium"
+            >
+              Contact
+            </Link>
+          </motion.div>
+        </div>
         <nav className="pr-4 hidden lg:flex items-center h-full font-semibold ">
           <Link
             href="/"
