@@ -11,7 +11,7 @@ export default function Page() {
       <Header selected="lisa-story" />
       <div className="relative overflow-x-hidden bg-[url('/assets/hero-img.png')] bg-cover bg-right bg-no-repeat">
         <div className="absolute w-full h-full bg-black/80 z-10" />
-        <div className="w-[85%]  md:w-[80%] lg:w-[75%] mx-auto lg:text-start text-center flex flex-col space-y-14 py-20">
+        <div className="w-[95%]  md:w-[85%] lg:w-[75%] mx-auto lg:text-start text-center flex flex-col space-y-14 py-20">
           <div className={`${greatVibes.className} z-30 lg:ml-10 ml-0`}>
             <motion.h1
               initial={{ x: 200, opacity: 0 }}
@@ -230,7 +230,7 @@ export default function Page() {
 
       <div className="relative overflow-x-hidden bg-[url('/assets/landing-about.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="absolute w-full h-full bg-black/80 z-10" />
-        <div className="w-[85%]  md:w-[80%] lg:w-[75%] mx-auto lg:text-start text-center flex flex-col space-y-14 py-20">
+        <div className="w-[95%]  md:w-[85%] lg:w-[75%] mx-auto lg:text-start text-center flex flex-col space-y-14 py-20">
           <div
             className={`${greatVibes.className} z-30 lg:text-start text-center lg:ml-10 ml-0`}
           >

@@ -48,7 +48,7 @@ export default function Footer({}: Props) {
             About{" "}
           </Link>
           <Link href="/packages" className="text-gray-500">
-            Pricing
+            Packages
           </Link>
           <Link href="/contact" className="text-gray-500">
             Contact
