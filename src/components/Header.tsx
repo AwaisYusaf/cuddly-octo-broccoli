@@ -20,17 +20,20 @@ export default function Header({ selected }: Props) {
             alt=""
             width="600"
             height="300"
-            className="w-[200px] z-50 bg-white"
+            className="w-[180px] lg:w-[200px] z-50 bg-white"
           />
         </Link>
         <div className="flex lg:hidden">
-          <Hamburger toggled={menuOpen} toggle={setMenuOpen} />
+          <div className="z-40">
+            <Hamburger toggled={menuOpen} toggle={setMenuOpen} />
+          </div>
           <motion.div
             initial={{ y: -200 }}
             whileInView={{ y: 0 }}
+            transition={{ type: "spring", stiffness: 1000, damping: 150 }}
             className={`left-0 ${
               menuOpen ? "flex" : "hidden"
-            } flex-col px-4 py-6 bg-white top-24 z-30 absolute h-[400px]  w-full`}
+            } flex-col px-4 py-6 bg-white text-gray-500 top-24 z-40 absolute h-[400px]  w-full`}
           >
             <Link
               href="/"
