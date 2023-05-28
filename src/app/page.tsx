@@ -19,7 +19,7 @@ export default function Home() {
       <SectionTwo />
       <SectionThree />
       <AboutMeLanding />
-      <SectionFour />
+      {/* <SectionFour /> */}
       <LandingAbout />
       <LandingDisclaimar />
       <LandingPricing />
