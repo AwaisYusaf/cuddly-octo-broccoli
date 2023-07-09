@@ -30,9 +30,7 @@ export default function Page({ searchParams }: { searchParams: any }) {
           data={{ selectedTab, setSelectedTab }}
         />
       )}
-      {selectedTab == 4 && (
-        <ThanksForOrder data={{ selectedTab, setSelectedTab }} />
-      )}
+
       {selectedTab == 5 && <Congragulations />}
     </main>
   );
