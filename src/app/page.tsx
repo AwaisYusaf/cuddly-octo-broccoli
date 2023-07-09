@@ -24,6 +24,7 @@ export default function Home() {
       <LandingDisclaimar />
       <LandingPricing />
       <Testimonials />
+      <Footer />
     </main>
   );
 }

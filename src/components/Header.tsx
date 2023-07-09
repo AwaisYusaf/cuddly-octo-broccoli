@@ -11,6 +11,7 @@ type Props = {
 
 export default function Header({ selected }: Props) {
   const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="border-b z-30">
       <header className="w-[95%] lg:w-[85%] mx-auto flex items-center justify-between h-full bg-white">
@@ -48,7 +49,7 @@ export default function Header({ selected }: Props) {
               Lisa Story
             </Link>
             <Link
-              href="/packages"
+              href="/all-packages"
               className="text-2xl border-b border-gray-300 py-3  font-medium"
             >
               Packages
@@ -99,7 +100,7 @@ export default function Header({ selected }: Props) {
           </Link>
 
           <Link
-            href="/packages"
+            href="/all-packages"
             className="relative border-l h-[100px]  flex items-center justify-center group px-5 text-center"
           >
             <div
