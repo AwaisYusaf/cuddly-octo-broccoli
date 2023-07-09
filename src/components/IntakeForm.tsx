@@ -37,7 +37,7 @@ export default function IntakeForm({ id }: { id: any }) {
       body: JSON.stringify(e),
     });
     const data = await res.json();
-    redirect(data.url);
+    window.location = data.url;
   }
 
   function handleForm(e: FormType) {
