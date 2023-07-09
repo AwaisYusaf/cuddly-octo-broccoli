@@ -27,13 +27,7 @@ type FormType = {
 };
 type Props = {};
 
-export default function IntakeForm({
-  data: { selectedTab, setSelectedTab },
-  id,
-}: {
-  data: any;
-  id: any;
-}) {
+export default function IntakeForm({ id }: { id: any }) {
   const { register, handleSubmit } = useForm<FormType>();
   const [submitted, setSubmitted] = useState(false);
 
