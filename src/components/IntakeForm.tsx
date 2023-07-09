@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { redirect } from "next/navigation";
 import { useForm } from "react-hook-form";
 type FormType = {
   firstName: string;
@@ -42,7 +43,7 @@ export default function IntakeForm({
       body: JSON.stringify(e),
     });
     const data = await res.json();
-    window.location = data.url;
+    redirect(data.url);
   }
 
   function handleForm(e: FormType) {

@@ -3,6 +3,7 @@ import { useState } from "react";
 import PackageInfo from "@/components/PackageInfo";
 import IntakeForm from "@/components/IntakeForm";
 import ThanksForOrder from "@/components/ThanksForOrder";
+
 import Policies from "@/components/Policies";
 import Congragulations from "@/components/Congragulations";
 
