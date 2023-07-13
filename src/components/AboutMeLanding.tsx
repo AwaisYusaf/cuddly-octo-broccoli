@@ -2,7 +2,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { Hepta_Slab } from "next/font/google";
-import Link from "next/link";
 const heptaSlab = Hepta_Slab({
   weight: ["300", "400", "500", "600", "800"],
   subsets: ["latin"],

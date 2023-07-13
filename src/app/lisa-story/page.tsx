@@ -22,9 +22,9 @@ export default function Page() {
                 viewport={{ once: true }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
-                className="lg:text-6xl md:text-4xl text-2xl z-30 text-white"
+                className="lg:text-4xl md:text-3xl text-2xl z-30 underline underline-offset-8 text-white"
               >
-                {"About Us"}
+                {"HOW IT WORKS"}
               </motion.h1>
             </div>
             <motion.p
@@ -34,17 +34,15 @@ export default function Page() {
               transition={{ duration: 1 }}
               className="text-gray-100 text-lg z-30 leading-8 "
             >
-              Lisa herself came from a organized upbringing where she nurtured
-              up in a family that was not close, did not show or express love.
-              Mother and Father were at odds and divorced while Lisa was a teen.
-              It was a dysfunctional family where no one spoke to each other
-              much and mostly just clashed. It was like no one in the family got
-              along. Lisa always felt unaccompanied and isolated. She grew up
-              feeling like an outcast in culture. She never felt like she fit
-              in, had little friends or even boyfriends growing up. At a very
-              early age, Lisa got into smouldering cigarettes, drinking, smoking
-              pot and even experimenting with hallucinogenic drugs. Her teen
-              years was filled with sadness and let downs.{" "}
+              Once you have selected the ideal Chatting/Coaching package for
+              your needs, you will be directed to our Coaching policies. Please
+              read this over and ensure you are in agreement with them before
+              proceeding to the payment page. After you agree, you will be taken
+              to an Intake form. This questionnaire is designed to give your
+              coach a very good idea of yourself which in turn allows her to
+              better understand you and determine the most effective approach in
+              assisting you during your sessions. It is important to note that
+              all information shared on this form is 100% confidential.
             </motion.p>
 
             <motion.p
@@ -54,18 +52,18 @@ export default function Page() {
               transition={{ duration: 1 }}
               className="z-30 text-gray-100 text-lg leading-8"
             >
-              Lisa went into her adult years fighting severe anxiety and
-              depression but nonetheless through it all, succeeded to press on.
-              She graduated high school in 1983, went on to work for her father
-              in his office as a secretary and then later went back to college
-              to pursue Higher education. After working for her father in his
-              advertising forte company for a number of years, Lisa went back to
-              college a few times. The first time was in 1990 where she
-              contracted up for the Commercial Music program through the local
-              college as Lisa always had a vision to be a professional
-              singer/performer. Lisa is a massive music fan and over the years
-              has been in bands and even sang live at multiple music venues in
-              front of audiences.
+              After completing the payment, you will be guided to a scheduling
+              page where you can book your calls. We recommend scheduling all
+              your calls at the time of purchase to ensure availability in
+              {"Lisa's"} calendar. Please note that if you have purchased, for
+              example, 25 hours of talking/coaching calls, we recommend you
+              using them within the month. When scheduling your calls, there
+              will be a short form to fill out for you to let us know what you
+              would like to focus on during that particular session. This will
+              help give your coach a good idea how best to assist you during
+              that particular session. In the form, you can state whether you
+              wish to discuss your concerns or challenges, engage in healing
+              exercises, or receive coaching and mentoring during the call.
             </motion.p>
 
             <motion.p
@@ -75,162 +73,9 @@ export default function Page() {
               transition={{ duration: 1 }}
               className="z-30 text-gray-100 text-lg leading-8"
             >
-              As years went by, Lisa did various different jobs. She spent 9
-              years working in various different workplaces and industries doing
-              Workplace Admin roles. She then altered professions to work in the
-              Cosmetic industry as a Cosmetician/Makeup Artist in numerous
-              different department stores, she even worked on a Cruise ship in
-              the Gift Shop until in 2008, Lisa decided to once again go back to
-              college to pursue additional certificate to help her advancement
-              her career. After thinking around what to take long and hard, she
-              decided again to proceed with her desire for music and the
-              entertainment industry and this time contracted for the Arts and
-              Entertainment Management program at the resident college. After
-              Lisa fruitfully completed this program and gained her certificate,
-              she landed her first job which was the person responsible to book
-              a tour for a Beatles tribute band which she did all on her own
-              with the information she grew from her school studies. After the
-              successful completion of this tour, Lisa then went on to start her
-              own corporate as a Booking Agent for entertainment acts.
-            </motion.p>
-
-            <motion.p
-              initial={{ x: 200, opacity: 0 }}
-              viewport={{ once: true }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1 }}
-              className="z-30 text-gray-100 text-lg leading-8"
-            >
-              As the years passed Lisa worked part time performing her Booking
-              Agent business on a part-time base, it wasn’t plenty to pay the
-              bills so she also got a occupation this time in the Events
-              Management field. She landed a job employed for a firm called Peak
-              Potentials Training which is the Self Development Industry. She
-              started out as a Customer Service Delegate but then because of her
-              knowledge booking Entertainment acts at different venues, she
-              applied in house in the Event planning department. Through this
-              period, Lisa acquired full benefit of all of the courses they
-              presented as they offered concessions to staff. So, she ended up
-              taking various courses such as Enlightened Warrior Training,
-              Wizard Training, Life Directions (which is a course on how to
-              determine your life’s (or Darma) and bring it to the world as well
-              she took a course called Spiritual Gift’s which helps you to
-              discover your God certain gifts and help others in the world by
-              using these gifts. Lisa grabbed a great awareness in these courses
-              and educated a lot from them. She predominantly loved the
-              Spiritual Gifts course.
-            </motion.p>
-
-            <motion.p
-              initial={{ x: -200, opacity: 0 }}
-              viewport={{ once: true }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1 }}
-              className="z-30 text-gray-100 text-lg leading-8"
-            >
-              Lisa worked for this company for some time until they also went
-              through a huge layoff and Lisa once again found herself
-              unemployed. It was during this time that Lisa decided to once
-              again go back to school for a career change. This time, she
-              decided that since she herself had been through so many career and
-              job changes in her life coupled with the fact that Lisa had a
-              passion for helping others choose careers or jobs best suited for
-              them, she decided to enroll in the Career Development Practitioner
-              program at the local college. This certificate would give you the
-              qualifications to help people in the Employment Industry as an
-              Employment Counsellor. Lisa worked in this industry for a few
-              years until the industry was hit with a massive restructuring and
-              many people got laid off in the process.
-            </motion.p>
-
-            <motion.p
-              initial={{ x: 200, opacity: 0 }}
-              viewport={{ once: true }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1 }}
-              className="z-30 text-gray-100 text-lg leading-8"
-            >
-              Lisa was again faced with needing to find employment. It was at
-              this time that she came across an advertisement in the local paper
-              from Young Drivers of Canada looking to hire Driving Instructors.
-              Lisa has always loved to drive and thought as well she would be
-              good as a one on one teacher so she enrolled in the program and
-              successfully obtained her Driving Instructing license. Lisa spent
-              the next few years working for other driving schools until at the
-              age of 49, she decided that she needed to do something more with
-              her life than work for other people so made the decision to enrol
-              in a self-employment program offered through the government. That
-              was in 2015 and Lisa’s business of choice was to start her own
-              driving school. After Lisa successfully completed this program,
-              she worked very hard and had to learn everything there is to know
-              about what it takes to start and grow your own business. So this
-              meant everything from building your own website, to getting a
-              domain name, advertising on different platforms, having to do SEO,
-              networking and all of the administration and sales that goes along
-              with it. Lisa singlehandedly did it all herself in the sense that
-              she managed and performed all roles.
-            </motion.p>
-
-            <motion.p
-              initial={{ x: -200, opacity: 0 }}
-              viewport={{ once: true }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1 }}
-              className="z-30 text-gray-100 text-lg leading-8"
-            >
-              Lisa successfully built her business up from scratch to working
-              full time, 7 days a week. She did this until one day in 2017,
-              Lisa’s personal life took a very hard hit. It was during this time
-              that Lisa found herself embroiled in a significant relationship
-              that nearly destroyed her. After the ending of this relationship
-              with what Lisa felt was the love of her life, she discovered that
-              this person was a Malignant Narcissist. Lisa then went on to do
-              years of intensive research on the subject of narcissism. It was
-              after this intensive research on narcissists that she was lead to
-              come to realize that her own father who mentally and emotionally
-              abused her for ­most of her life was also one as well as other
-              family members and even people who were friends through the years.
-              Before this, she had endured a lot of anguish over broken
-              relationships but just thought she was the victim of mean people
-              who took advantage of Lisa’s good nature.
-            </motion.p>
-
-            <motion.p
-              initial={{ x: 200, opacity: 0 }}
-              viewport={{ once: true }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1 }}
-              className="z-30 text-gray-100 text-lg leading-8"
-            >
-              After the breakup of this significant relationship, Lisa spent the
-              next number of years feverishly researching everything there is to
-              know about the subject of Narcissism. Not only did she watch
-              hundreds of videos, read many books plus other topics of
-              self-development but she joined support groups and took
-              counselling. It was during this time that Lisa felt like her life
-              was hanging from a thread. T­­he main thing that kept her going
-              and getting out of bed each day was her business. Even though,
-              Lisa was grief stricken and broken hearted, Lisa had no choice but
-              to continue doing her business if she was going to pay the bills.
-              In the meantime, she went on a huge self-growth and self-discovery
-              journey where she had to claw her life back from shattered and
-              broken to feeling whole and healed again.
-            </motion.p>
-
-            <motion.p
-              initial={{ x: -200, opacity: 0 }}
-              viewport={{ once: true }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1 }}
-              className="z-30 text-gray-100 text-lg leading-8"
-            >
-              Throughout the time that Lisa was going through this journey, Lisa
-              had this strong inner knowing that she was meant to take the
-              obstacles and challenges in her life to helping others so it was
-              that in 2022, Lisa enrolled in the Life Coaching program and
-              obtained her certification. On top of this Lisa decided to write a
-              book on her experience which she is in the process of doing.
-              (Completion date to be announced soon).
+              While this serves as a framework, it is important to note that it
+              can be flexible and subject to change during the course of the
+              conversation, based on your preferences.
             </motion.p>
           </div>
         </div>
@@ -239,17 +84,17 @@ export default function Page() {
           <div className="absolute w-full h-full bg-black/80 z-10" />
           <div className="w-[95%]  md:w-[85%] lg:w-[75%] mx-auto lg:text-start text-center flex flex-col space-y-14 py-20">
             <div
-              className={`${heptaSlab.className} z-30 lg:text-start text-center lg:ml-10 ml-0`}
+              className={`${heptaSlab.className} z-30 lg:text-start text-center `}
             >
               <motion.h1
                 initial={{ x: 200, opacity: 0 }}
                 viewport={{ once: true }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
-                className="lg:text-7xl md:text-6xl text-5xl z-30 text-white"
+                className="lg:text-4xl md:text-3xl text-2xl z-30 underline underline-offset-8 text-white"
               >
                 {/* LISA’S EXPERIENCE AND EDUCATION */}
-                Lisa’s Experience and Education
+                WHAT BENEFITS CAN YOU EXPECT TO GET FROM OUR SERVICES?
               </motion.h1>
             </div>
             <motion.p
@@ -259,84 +104,142 @@ export default function Page() {
               transition={{ duration: 1 }}
               className="text-gray-100 text-lg z-30 leading-8 "
             >
-              Lisa attended college and successfully completed the Career
-              Development Practitioner program and earned her certification. It
-              gives people the tools and skills to help them make career and
-              career decisions. She is also good at writing resumes and cover
-              letters. Lisa became completely self-employed in 2015. She took a
-              self-employed course and learned everything she needed to start a
-              legitimate business. After completing this course of hers, she
-              founded her own driving school. She researched everything she
-              needed to start this business and then started it all on her own.
-              She built her own website from scratch, learned all about her
-              necessary advertising tools, and hired her SEO person. After that,
-              she managed all calls and sales, developed unique pricing and
-              packages, and marketing for the company, and even handled all
-              administration and bookkeeping. I planned all my clients, billing,
-              and even payroll while hiring. She takes care of all of her
-              clients and made sure that excellent customer service is paramount
-              to the success of any business. She managed and ran this business
-              until 2022 when she again decided a change was needed and became
-              certified in life coaching. She has also attended and taken
-              numerous self-development courses, including Spiritual Gifts
-              (knowing your God-given gifts and using them in the world to help
-              others).
+              <ul className="flex flex-col space-y-4 list-inside list-disc">
+                <li>
+                  Relief and help from stressful situations by having a
+                  listening ear to hear you and support you
+                </li>
+                <li>
+                  Relief from loneliness by having a caring and listening ear on
+                  the other end of the phone
+                </li>
+                <li>
+                  Help on employment or career decisions, finding your purpose
+                  or doing your passion
+                </li>
+                <li>
+                  Help with any Narcissist related relationship problems even if
+                  it means someone to talk to who understands what you are going
+                  through. Lisa can also offer advice and guidance as well as
+                  action plans to leave or get through ruts and depressions over
+                  it
+                </li>
+                <li>
+                  Help with keeping on track, having someone hold you
+                  accountable to action plans to lead you towards your goals
+                </li>
+                <li>Having someone help you with making decisions</li>
+                <li>
+                  Brainstorming, helping with ideas of various different things
+                  you can do to get out of ruts
+                </li>
+                <li>Goal setting ideas and exercises</li>
+                <li>
+                  Help with starting a business if that is what path you want to
+                  take
+                </li>
+                <li>
+                  Having the option of receiving different healing exercises
+                  depending on your circumstance
+                </li>
+                <li>Making positive progress in your life</li>
+                <li>
+                  Feeling better after your calls (our goal is to ensure that
+                  you will feel better at the end of your call than you did
+                  before it)
+                </li>
+              </ul>
             </motion.p>
 
-            <motion.p
-              initial={{ x: -200, opacity: 0 }}
-              viewport={{ once: true }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1 }}
-              className="z-30 text-gray-100 text-lg leading-8"
-            >
-              She has delved deep into everything related to narcissistic abuse.
-              She has read numerous books, attended classes, and watched
-              hundreds of videos. She is very knowledgeable on this topic so she
-              can help you in this area too. Lisa’s current course is called her
-              Neuro-Wellness. A course on how to tame an overstimulated and
-              stressed brain. She has a grab bag of different things to draw
-              from the courses she took to help you during your sessions with
-              her.
-            </motion.p>
+            <div className=" mx-auto lg:text-start text-center flex flex-col space-y-8 py-20">
+              <div className={`${heptaSlab.className} z-30`}>
+                <motion.h1
+                  initial={{ x: 200, opacity: 0 }}
+                  viewport={{ once: true }}
+                  whileInView={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 1 }}
+                  className="lg:text-4xl md:text-3xl text-2xl z-30 underline underline-offset-8 text-white"
+                >
+                  {"WHAT OUR CHAT AND MENTORING SERVICE IS NOT"}
+                </motion.h1>
+              </div>
 
-            <div className={`${heptaSlab.className} z-30 lg:ml-10 ml-0`}>
-              <motion.h1
-                initial={{ x: 200, opacity: 0 }}
+              <motion.p
+                initial={{ x: -200, opacity: 0 }}
                 viewport={{ once: true }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
-                className="lg:text-7xl md:text-6xl text-5xl z-30 text-white"
+                className="z-30 text-gray-100 text-lg leading-8"
               >
-                {"Lisa’s Attributes"}
-              </motion.h1>
+                {
+                  "At You've Got a Friend Chatting and Coaching Service, it's important to clarify what we do not offer:"
+                }
+              </motion.p>
+
+              <motion.p
+                initial={{ x: -200, opacity: 0 }}
+                viewport={{ once: true }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ duration: 1 }}
+                className="z-30 text-gray-100 text-lg leading-8"
+              >
+                <strong>1. Complex Psychiatric Problem Solving:</strong>
+                <br /> While we are here to lend an empathetic ear and provide
+                guidance, {"it's"} essential to note that we are not therapists
+                or counselors. Consequently, we are unable to address serious
+                mental health issues or offer diagnoses and medication
+                recommendations. If you have been diagnosed with a significant
+                mental health condition, we recommend seeking professional help
+                from a qualified therapist or psychiatrist.
+              </motion.p>
+              <motion.p
+                initial={{ x: -200, opacity: 0 }}
+                viewport={{ once: true }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ duration: 1 }}
+                className="z-30 text-gray-100 text-lg leading-8"
+              >
+                <strong>2. Sex Hotline Services:</strong>
+                <br /> We want to emphasize that our coaching service is not
+                designed for explicit or adult content conversations. We
+                maintain a respectful and supportive environment focused on
+                personal growth, empowerment, and companionship.
+              </motion.p>
+              <motion.p
+                initial={{ x: -200, opacity: 0 }}
+                viewport={{ once: true }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ duration: 1 }}
+                className="z-30 text-gray-100 text-lg leading-8"
+              >
+                <strong>3. Traditional Coaching Approach:</strong>
+                <br /> Unlike traditional coaching services, we bring something
+                unique to the table with our services. At {"You've"} Got A
+                Friend Chat and Mentor Service, we offer two options to our
+                clients. One is if you just want to talk and not be coached or
+                mentored or if you do desire someone to coach or mentor you, we
+                can do that too. Our pricing structure also sets us apart, as we
+                operate more as a membership site so instead of the traditional
+                $100 and up for an hour of just Coaching, we offer much lower
+                prices to accomodate more communication and assistance from us.
+                We offer different pricing packages based on the amount of
+                conversation or coaching you prefer within a month. You have the
+                freedom to communicate your preference for either casual
+                conversation or dedicated coaching during your sessions.
+              </motion.p>
+              <motion.p
+                initial={{ x: -200, opacity: 0 }}
+                viewport={{ once: true }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ duration: 1 }}
+                className="z-30 text-gray-100 text-lg leading-8"
+              >
+                Please feel free to reach out to us if you have any further
+                questions or require clarification. We are committed to offering
+                a service that meets your needs and provides the support you
+                seek.
+              </motion.p>
             </div>
-
-            <motion.p
-              initial={{ x: -200, opacity: 0 }}
-              viewport={{ once: true }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1 }}
-              className="z-30 text-gray-100 text-lg leading-8"
-            >
-              She has delved deep into everything related to narcissistic abuse.
-              She has read numerous books, attended classes, and watched
-              hundreds of videos. She is very knowledgeable on this topic so she
-              can help you in this area too.
-            </motion.p>
-
-            <motion.p
-              initial={{ x: 200, opacity: 0 }}
-              viewport={{ once: true }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1 }}
-              className="z-30 text-gray-100 text-lg leading-8"
-            >
-              Lisa’s current course is called her Neuro-Wellness. A course on
-              how to tame an overstimulated and stressed brain. She has a grab
-              bag of different things to draw from the courses she took to help
-              you during your sessions with her.
-            </motion.p>
           </div>
         </div>
       </main>
