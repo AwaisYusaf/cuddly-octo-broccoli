@@ -60,6 +60,12 @@ export default function Header({ selected }: Props) {
             >
               Contact
             </Link>
+            <Link
+              href="/about-us"
+              className="text-2xl  border-b border-gray-300 py-3 font-medium"
+            >
+              About Us
+            </Link>
           </motion.div>
         </div>
         <nav className="pr-4 hidden lg:flex items-center h-full font-semibold ">
@@ -95,7 +101,7 @@ export default function Header({ selected }: Props) {
               z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
             ></div>
             <p className="z-50 text-center w-full group-hover:text-white">
-              Lisa Story
+              About Us
             </p>
           </Link>
 
@@ -127,6 +133,22 @@ export default function Header({ selected }: Props) {
             ></div>
             <p className="z-50 text-center w-full group-hover:text-white">
               Contact
+            </p>
+          </Link>
+
+          <Link
+            href="/about-us"
+            className="relative border-x h-[100px] flex  items-center justify-center group px-5 text-center"
+          >
+            <div
+              className={`absolute top-0  ${
+                selected == "about-us"
+                  ? "translate-y-0 bg-red-600"
+                  : "-translate-y-48 group-hover:translate-y-0 bg-black"
+              }  z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
+            ></div>
+            <p className="z-50 text-center w-full group-hover:text-white">
+              About Us
             </p>
           </Link>
         </nav>

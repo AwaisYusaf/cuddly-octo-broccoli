@@ -1,16 +1,16 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import CustomersTable from "../../components/CustomersTable";
+import AdminLogin from "@/components/AdminLogin";
 
 type Props = {};
-async function fetchData() {
-  const res = await fetch("http://localhost:3000/api/customers", {
-    cache: "no-store",
-  });
-  const data = await res.json();
-  return data.data;
-}
-export default async function Admin({}: Props) {
-  const customers = await fetchData();
-  console.log(customers);
-  return <CustomersTable data={customers} />;
+
+export default function Admin({}: Props) {
+  const [isAuthentcated, setAuthenticated] = useState(false);
+
+  return isAuthentcated ? (
+    <CustomersTable />
+  ) : (
+    <AdminLogin login={setAuthenticated} />
+  );
 }

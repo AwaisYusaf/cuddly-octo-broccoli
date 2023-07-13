@@ -45,9 +45,8 @@ export default function IntakeForm({ id }: { id: any }) {
     // setSelectedTab(selectedTab + 1);
     //Do all form submitting process here..
     setSubmitted(true);
-    buyPackage({ ...e, packageId: id });
 
-    //Then->
+    buyPackage({ ...e, packageId: id });
   }
   return (
     <div className="w-[90%] md:w-[80%] lg:w-[70%] mx-auto py-16 flex flex-col space-y-12">
@@ -64,7 +63,7 @@ export default function IntakeForm({ id }: { id: any }) {
         className="grid grid-cols-4 gap-x-8 gap-y-6"
       >
         <div className="col-span-4 md:col-span-2 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             First Name
           </label>
           <input
@@ -75,7 +74,7 @@ export default function IntakeForm({ id }: { id: any }) {
           />
         </div>
         <div className="col-span-4 md:col-span-2 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             Last Name
           </label>
           <input
@@ -86,7 +85,7 @@ export default function IntakeForm({ id }: { id: any }) {
           />
         </div>
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             Date of birth
           </label>
           <input
@@ -96,7 +95,7 @@ export default function IntakeForm({ id }: { id: any }) {
           />
         </div>
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             Gender
           </label>
           <div>
@@ -126,7 +125,7 @@ export default function IntakeForm({ id }: { id: any }) {
         </div>
 
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             Email
           </label>
           <input
@@ -138,7 +137,7 @@ export default function IntakeForm({ id }: { id: any }) {
         </div>
 
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             What is your nationality?
           </label>
           <input
@@ -149,7 +148,7 @@ export default function IntakeForm({ id }: { id: any }) {
         </div>
 
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             What country do you presently reside in?
           </label>
           <input
@@ -176,7 +175,7 @@ export default function IntakeForm({ id }: { id: any }) {
         </div>
 
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             Do you consider yourself an Empath highly sensitive or more of a
             Type A personality type? (Type A is considered less empathetic and
             sensitive and more of a go getter, competitive type)
@@ -188,7 +187,7 @@ export default function IntakeForm({ id }: { id: any }) {
         </div>
 
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             Are you unemployed, self employed or employed? Please answer below.
             If employed or self employed, please describe below what you do for
             work?
@@ -200,7 +199,7 @@ export default function IntakeForm({ id }: { id: any }) {
         </div>
 
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             Describe your fitness and activity level. What types of things do
             you do to keep active and exercise
           </label>
@@ -211,7 +210,7 @@ export default function IntakeForm({ id }: { id: any }) {
         </div>
 
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             Have you been diagnosed with any mental health conditions that we
             should be aware of? If so, please indicate below what it is and what
             treatment and/or medication protocols you are currently on if any
@@ -223,7 +222,7 @@ export default function IntakeForm({ id }: { id: any }) {
         </div>
 
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             Describe your dietary lifestyle. What is your typical day to day
             diet is like
           </label>
@@ -234,7 +233,7 @@ export default function IntakeForm({ id }: { id: any }) {
         </div>
 
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             Do you have any addictions? Please describe below and whether you
             would like your mentor/coach to help you with that
           </label>
@@ -245,7 +244,7 @@ export default function IntakeForm({ id }: { id: any }) {
         </div>
 
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             Do you have any physical health conditions? Please share below what
             you have and how that impacts your life
           </label>
@@ -256,7 +255,7 @@ export default function IntakeForm({ id }: { id: any }) {
         </div>
 
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             Have you had coaching or therapy before? If so, please indicate what
             you have taken and what you liked about it/how it helped you.
           </label>
@@ -267,7 +266,7 @@ export default function IntakeForm({ id }: { id: any }) {
         </div>
 
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             Describe your worklife and what you would like to see different (If
             you go to school, you can specify and describe below as well)
           </label>
@@ -278,7 +277,7 @@ export default function IntakeForm({ id }: { id: any }) {
         </div>
 
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             Do you have any hobbies or passions? If so, describe below what
             really brings you the greatest joys in life. For instance, is it
             art, music, sciences, leadership, helping animals, volunteering
@@ -290,7 +289,7 @@ export default function IntakeForm({ id }: { id: any }) {
         </div>
 
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             Please specify whether you would prefer chatting or
             coaching/mentoring or a combination of both in your sessions. If
             coaching/mentoring, is there anything holding you back from
@@ -304,7 +303,7 @@ export default function IntakeForm({ id }: { id: any }) {
         </div>
 
         <div className="col-span-4 flex flex-col">
-          <label className="font-medium text-gray-600 text-sm mb-2">
+          <label className="font-medium text-gray-600 text-base mb-2">
             Although we do not believe in enforcing any particular religious
             ideologies on anyone, to help us in knowing what our clients are
             comfortable discussing, we would like to know if you are comfortable
@@ -341,7 +340,7 @@ export default function IntakeForm({ id }: { id: any }) {
           <button
             disabled={submitted}
             type="submit"
-            className={`px-8 py-3 text-sm bg-blue-600 rounded text-white ${
+            className={`px-8 py-3 text-base bg-blue-600 rounded text-white ${
               submitted ? "opacity-50 cursor-not-allowed" : ""
             }`}
           >

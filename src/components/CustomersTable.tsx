@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
-type Props = { data: any };
+export default function CustomersTable() {
+  const [customersData, setCustomersData] = useState<any>([]);
 
-export default function CustomersTable({ data }: Props) {
-  console.log("Data:", data);
+  async function fetchData() {
+    const res = await fetch("http://localhost:3000/api/customers");
+    const data = await res.json();
+    const sorted = data.data.sort((a: any, b: any) => a.id - b.id);
+
+    setCustomersData(sorted);
+  }
+  useEffect(() => {
+    fetchData();
+  }, []);
+  if (customersData.length == 0) {
+    return <h1>Loading....</h1>;
+  }
+
   return (
     <section className="bg-gray-50 dark:bg-gray-900 p-3 sm:p-5">
       <div className="mx-auto max-w-screen-xl px-4 lg:px-12">
@@ -254,7 +267,7 @@ export default function CustomersTable({ data }: Props) {
                 </tr>
               </thead>
               <tbody>
-                {data.map((customer: any, i: number) => {
+                {customersData.map((customer: any, i: number) => {
                   return (
                     <tr key={i} className="border-b dark:border-gray-700">
                       <th

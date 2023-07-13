@@ -12,7 +12,7 @@ export default function SectionTwo({}: Props) {
   return (
     <div className="w-[90%] lg:w-[85%] mx-auto flex flex-col space-y-6 py-8 lg:py-0">
       <div className="flex lg:flex-row flex-col">
-        <div className="flex items-center justify-center lg:justify-start basis-1/2">
+        <div className="flex items-start pt-4 justify-center lg:justify-start basis-1/2">
           <Image
             src="/assets/section2-img1.jpg"
             alt=""
@@ -24,16 +24,16 @@ export default function SectionTwo({}: Props) {
 
         <div className="basis-1/2 flex flex-col space-y-3">
           <h2 className={`${heptaSlab.className} text-3xl my-4 font-semibold`}>
-            Helping individuals with PTSD, Anxiety, Depression and Loneliness.
+            Helping individuals with PTSD, Anxiety, Depression and Loneliness
           </h2>
-          <p className="text-lg leading-8 text-gray-400">
+          <p className="text-lg leading-8 text-gray-700">
             {
-              "Have you ever felt like you needed someone to talk to but didn’t have anyone to talk to or maybe you feel stuck because you feel like you really would like someone to talk to about what ails you but you don’t want to be a burden or a “Debbie Downer” to your friends or family?"
+              "Welcome to You've Got a Friend Chatting and Mentoring service, where you'll find the support and guidance you've been seeking."
             }
           </p>
-          <p className="text-lg leading-8 text-gray-400">
+          <p className="text-lg leading-8 text-gray-700">
             {
-              "Have you ever felt like you really needed a coach? Someone to help you sort out your problems, maybe brainstorm with you solutions, hold you accountable to goals or just be that other objective person to talk to but the traditional coaches are too expensive so the best you can do is maybe talk to a coach or therapist for an hour a week however, it just isn’t enough and as well your finances just can’t keep up with the monthly cost?"
+              "At times, we all yearn for someone to talk to, someone who understands and listens without judgment. But it's not always easy to find that person in our immediate circle without feeling like a burden or dampening the mood. That's where we come in."
             }
           </p>
         </div>
@@ -41,30 +41,25 @@ export default function SectionTwo({}: Props) {
 
       <div className="flex flex-col lg:flex-row">
         <div className="basis-1/2 flex flex-col space-y-3">
-          <p className="text-lg leading-8 text-gray-400">
+          <p className="text-lg leading-8 text-gray-700">
             {
-              "If so, then this service is for you!  You have come to the right place.  You’ve Got a Friend Chatting and Mentoring service is the brainchild of Lisa Larson."
+              "Have you ever felt the need for a coach or mentor? Someone who can help you untangle your problems, explore potential solutions, hold you accountable to your goals, or simply be a neutral sounding board? Traditional coaching services can often be expensive, limiting your access to just one hour a week. We understand the frustration when you crave more frequent support, but your finances can't keep up with the monthly costs."
             }
           </p>
-          <p className="text-lg leading-8 text-gray-400">
+          <p className="text-lg leading-8 text-gray-700">
             {
-              "We also changed that most people talk to their coach (or advisor) about once a week, so you may need to talk to someone more often. For a price well below $100/hour, he wants a month."
+              "Introducing You've Got a Friend Chatting and Mentoring service, founded by Lisa Larson. We understand that sometimes you need more than a weekly conversation, so we offer various pricing plans tailored to your needs. Whether you prefer to dip your toes in the water with our 1-hour option or require up to 30 hours of speaking or coaching per month, our prices are affordable and designed to accommodate your requirements."
             }
           </p>
 
-          <p className="text-lg leading-8 text-gray-400">
+          <p className="text-lg leading-8 text-gray-700">
             {
               "Check out the countless prize packages here! (You can click this to go to the package)"
             }
           </p>
-          <p className="text-lg leading-8 text-gray-400">
+          <p className="text-lg leading-8 text-gray-700">
             {
-              "Since we want to test the water, we recommend choosing the 1-hour option only. Its okay, you have that option. However, our prices are so low that if you need to talk to someone often, we offer up to 30 hours of speaking or coaching per month at a very reasonable price."
-            }
-          </p>
-          <p className="text-lg leading-8 text-gray-400 pt-3">
-            {
-              "Please check the price below. If you have any questions, feel free to send us a message via email or chat. "
+              "Take a look at our pricing options below. If you have any inquiries, please don't hesitate to reach out to us via email or chat. We're here to provide the support and companionship you've been searching for."
             }
           </p>
         </div>

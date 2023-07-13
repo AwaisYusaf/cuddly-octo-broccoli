@@ -4,6 +4,7 @@ import { doc, setDoc, getDocs, collection } from "firebase/firestore";
 import { db } from "@/app/api/database/firebase";
 import ThanksForOrder from "@/components/ThanksForOrder";
 import Header from "@/components/Header";
+import Script from "next/script";
 
 type Props = {
   searchParams: {
@@ -39,5 +40,9 @@ export default function Page({ searchParams: { id, status } }: Props) {
   if (status == "success") {
     validateAndUpdate(id);
   }
-  return <ThanksForOrder />;
+  return (
+    <>
+      <ThanksForOrder />;
+    </>
+  );
 }

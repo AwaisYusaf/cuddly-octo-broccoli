@@ -1,10 +1,12 @@
 "use client";
 import Header from "@/components/Header";
-import { Great_Vibes } from "next/font/google";
 import { motion } from "framer-motion";
 import Footer from "@/components/Footer";
-
-const greatVibes = Great_Vibes({ weight: ["400"], subsets: ["latin"] });
+import { Hepta_Slab } from "next/font/google";
+const heptaSlab = Hepta_Slab({
+  weight: ["300", "400", "500", "600", "800"],
+  subsets: ["latin"],
+});
 
 export default function Page() {
   return (
@@ -14,15 +16,15 @@ export default function Page() {
         <div className="relative overflow-x-hidden bg-[url('/assets/hero-img.png')] bg-cover bg-right bg-no-repeat">
           <div className="absolute w-full h-full bg-black/80 z-10" />
           <div className="w-[95%]  md:w-[85%] lg:w-[75%] mx-auto lg:text-start text-center flex flex-col space-y-14 py-20">
-            <div className={`${greatVibes.className} z-30 lg:ml-10 ml-0`}>
+            <div className={`${heptaSlab.className} z-30`}>
               <motion.h1
                 initial={{ x: 200, opacity: 0 }}
                 viewport={{ once: true }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
-                className="lg:text-8xl md:text-7xl text-6xl z-30 text-white"
+                className="lg:text-6xl md:text-4xl text-2xl z-30 text-white"
               >
-                {"Lisa's Story"}
+                {"About Us"}
               </motion.h1>
             </div>
             <motion.p
@@ -237,7 +239,7 @@ export default function Page() {
           <div className="absolute w-full h-full bg-black/80 z-10" />
           <div className="w-[95%]  md:w-[85%] lg:w-[75%] mx-auto lg:text-start text-center flex flex-col space-y-14 py-20">
             <div
-              className={`${greatVibes.className} z-30 lg:text-start text-center lg:ml-10 ml-0`}
+              className={`${heptaSlab.className} z-30 lg:text-start text-center lg:ml-10 ml-0`}
             >
               <motion.h1
                 initial={{ x: 200, opacity: 0 }}
@@ -298,7 +300,7 @@ export default function Page() {
               her.
             </motion.p>
 
-            <div className={`${greatVibes.className} z-30 lg:ml-10 ml-0`}>
+            <div className={`${heptaSlab.className} z-30 lg:ml-10 ml-0`}>
               <motion.h1
                 initial={{ x: 200, opacity: 0 }}
                 viewport={{ once: true }}
