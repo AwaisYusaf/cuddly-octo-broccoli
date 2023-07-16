@@ -5,11 +5,9 @@ import HeroSection from "@/components/HeroSection";
 import LandingAbout from "@/components/LandingAbout";
 import LandingDisclaimar from "@/components/LandingDisclaimar";
 import LandingPricing from "@/components/LandingPricing";
-import SectionFour from "@/components/SectionFour";
 import SectionThree from "@/components/SectionThree";
 import SectionTwo from "@/components/SectionTwo";
 import Testimonials from "@/components/Testimonials";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -19,7 +17,6 @@ export default function Home() {
       <SectionTwo />
       <SectionThree />
       <AboutMeLanding />
-      {/* <SectionFour /> */}
       <LandingAbout />
       <LandingDisclaimar />
       <LandingPricing />
