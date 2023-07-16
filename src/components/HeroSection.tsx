@@ -33,13 +33,14 @@ export default function HeroSection({}: Props) {
             viewport={{ once: true }}
             className="z-20 w-full mx-auto lg:mx-0 lg:w-[50%] text-white text-base lg:text-lg"
           >
-            We are here to lend that helping hand to anyone who is suffering
-            from isolation or loneliness. You might need someone to talk to when
-            you are having a rough day or you might need one of our expert
-            coaches guidance to help you move out of that challenging time
-            towards something better and more positive. Or you might need some
-            healing exercises to help you feel more calm and centred during a
-            highly stressful time in your life.
+            We are here to lend that helping hand to anyone experiencing
+            isolation, lonliness or depression. You might need someone to talk
+            to if you are having a rough day. Maybe you need mentoring or
+            coaching to help you move out of a difficult situation, obtain
+            needed goals, have someone to support you, encourage you and even
+            mentor you. Or it could be that you want our Mentor to guide you
+            through some healing exercises. Whatever it is that ails you, we are
+            here to support you through your situation.
           </motion.p>
         </div>
       </div>

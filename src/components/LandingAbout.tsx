@@ -17,15 +17,24 @@ export default function LandingAbout({}: Props) {
             {"LISA’S"} EXPERIENCE AND EDUCATION
           </h2>
           <p className="text-gray-500 text-lg flex-1">
-            Lisa attended college and successfully completed the Career
-            Development Practitioner program and earned her certification. It
-            gives people the tools and skills to help them make career and
-            career decisions. She is also good at writing resumes and cover
-            letters. Lisa became completely self-employed in 2015. She took a
-            self-employed course and learned everything she needed to start a
-            legitimate business. After completing this course of hers, she
-            founded her own driving school. She researched everything she needed
-            to start this business and then started it all on her own.{" "}
+            {
+              "Lisa brings a wealth of diverse experience and education to her role as a life coach. She completed a Career Development Practitioner program, equipping her with the tools and skills to assist individuals in navigating career transitions and job changes. With expertise in crafting resumes and cover letters, she can help you present your best self professionally."
+            }
+            <br />
+            <br />
+            {
+              "In 2015, Lisa embarked on a journey of self-employment. She undertook a comprehensive Self-Employment course, acquiring the knowledge necessary to establish a successful business. With determination and resourcefulness, she founded her own driving school, managing all aspects independently. Lisa built a website from scratch, honed her advertising strategies, and hired SEO experts. She excelled in customer service, overseeing scheduling, invoicing, and even payroll. Her ability to handle administration and develop effective pricing, packages, and marketing strategies contributed to the success of her business."
+            }
+            <br />
+            <br />
+            {
+              "In 2022, Lisa embraced a new chapter in her life by obtaining her Life Coaching certificate. She consistently seeks personal and professional growth through various courses and self-development programs. Her broad knowledge includes understanding narcissistic abuse, where she has immersed herself in extensive reading, course-taking, and video-watching. Lisa's commitment to continuous learning enables her to offer well-rounded support in this area as well."
+            }
+            <br />
+            <br />
+            {
+              "Currently, Lisa is expanding her expertise through a course on Neuro-wellness. This program focuses on managing an overstimulated and stressed brain, providing her with additional tools to help clients effectively address these challenges. With a diverse range of skills and knowledge acquired from her educational and professional background, Lisa possesses a vast toolkit to draw from to help serve you the best."
+            }
           </p>
           <button className="px-8 self-start tracking-wider font-semibold py-3 uppercase bg-blue-600 rounded text-white">
             Read More
@@ -37,16 +46,14 @@ export default function LandingAbout({}: Props) {
             {"LISA'S"} ATTRIBUTES
           </h2>
           <p className="text-gray-500 text-lg flex-1">
-            Lisa is a very caring, supportive, patient, and empathetic person
-            who really wants to help people. is encouraging and it goes a long
-            way in helping you make positive progress. Rest assured that Lisa is
-            not judgmental and you will never be judged for what you disclose in
-            a session. , remember that Lisa remains neutral in all the
-            entanglements and may offer another perspective to think about. She
-            always looks at the situation from the outside and looks inside. She
-            won’t criticize or condemn you, but giving an outside perspective
-            can help bring about positive change. In this case, Lisa will always
-            ask permission to share this insight.
+            {
+              "Lisa is a compassionate, supportive, patient, and empathetic coach dedicated to helping individuals.  Her greatest attribute is her gift of encouragement.  What this means is she has an inner passion to encourage you, never growing tired or giving up on you, she is driven with a want and desire to encourage you towards whatever goal you are trying to achieve.  Rest assured, Lisa is a non-judgmental listener, creating a safe space for you to share in a safe and supportive atmosphere. While remaining neutral, she may provide a fresh perspective for you to consider."
+            }
+            <br />
+            <br />
+            {
+              "Viewing situations from an outside standpoint, Lisa offers insightful guidance without blame or criticism, empowering you to make positive changes. As a respectful coach, she will always seek your permission before offering her points of view."
+            }
           </p>
           <button className="px-8 self-start tracking-wider font-semibold py-3 uppercase bg-blue-600 rounded text-white">
             Read More

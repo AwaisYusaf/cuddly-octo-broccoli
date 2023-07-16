@@ -120,21 +120,6 @@ export default function Header({ selected }: Props) {
               Packages
             </p>
           </Link>
-          <Link
-            href="/contact"
-            className="relative border-x h-[100px] flex  items-center justify-center group px-5 text-center"
-          >
-            <div
-              className={`absolute top-0  ${
-                selected == "contact"
-                  ? "translate-y-0 bg-red-600"
-                  : "-translate-y-48 group-hover:translate-y-0 bg-black"
-              }  z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
-            ></div>
-            <p className="z-50 text-center w-full group-hover:text-white">
-              Contact
-            </p>
-          </Link>
 
           <Link
             href="/about-us"
@@ -148,7 +133,23 @@ export default function Header({ selected }: Props) {
               }  z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
             ></div>
             <p className="z-50 text-center w-full group-hover:text-white">
-              About Us
+              Blog
+            </p>
+          </Link>
+
+          <Link
+            href="/contact"
+            className="relative border-x h-[100px] flex  items-center justify-center group px-5 text-center"
+          >
+            <div
+              className={`absolute top-0  ${
+                selected == "contact"
+                  ? "translate-y-0 bg-red-600"
+                  : "-translate-y-48 group-hover:translate-y-0 bg-black"
+              }  z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
+            ></div>
+            <p className="z-50 text-center w-full group-hover:text-white">
+              Contact
             </p>
           </Link>
         </nav>

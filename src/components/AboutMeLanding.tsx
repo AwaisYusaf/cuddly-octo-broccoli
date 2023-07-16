@@ -29,152 +29,84 @@ export default function AboutMeLanding({}: Props) {
         </h2>
 
         <p className="text-lg leading-8 text-gray-500">
-          Born into a tumultuous family, {"Lisa's"} early years were marked by a
-          lack of love and harmony. From a young age, she felt unaccepted by
-          society, leading to feelings of isolation and loneliness that
-          persisted throughout her life. Growing up amidst constant conflict and
-          divorce, her parents turbulent relationship hindered the development
-          of healthy self-esteem patterns. Even her interactions with siblings
-          were strained, devoid of communication and love, leaving a lasting
-          impact on {"Lisa's"} sensitive nature.
-          <br />
+          {
+            "Born into a tumultuous family, Lisa's early years were marked by a lack of love and harmony. From a young age, she felt unaccepted by society, leading to feelings of isolation and loneliness that persisted throughout her life. Growing up amidst constant conflict and divorce, the dynamics in the home, hindered the development of healthy self-esteem patterns. Even her interactions with siblings were strained, devoid of communication and love, leaving a lasting impact on Lisa's sensitive nature."
+          }
           <span className="h-3 block" />
-          In her teenage years, Lisa found herself caught up with the wrong
-          crowd, engaging in unhealthy habits such as smoking, drinking, and
-          experimenting with drugs. Heartache and disappointment seemed to
-          dominate her life. However, despite battling severe anxiety and
-          depression during her transition into adulthood, Lisa persevered and
-          managed to graduate from high school.
-          <br />
+          {
+            "In Lisa’s teenage years, she found herself caught up with the wrong crowd, engaging in unhealthy habits such as smoking, drinking, and experimenting with drugs. Heartache and disappointment seemed to dominate her life. However, despite battling severe anxiety and depression during her transition into adulthood, Lisa persevered and graduated from high school"
+          }
           <span className="h-3 block" />
-          Uncertain about her path after high school, Lisa lacked proper
-          guidance and mentorship. Her unhealthy upbringing made her reluctant
-          to pursue university education. With a lifelong dream of becoming a
-          professional singer/performer, Lisa felt lost when it came to choosing
-          a career. Disliking the traditional schooling system, she ended up
-          working as a secretary for her {"father's"} advertising specialty
-          company for three years.
-          <br />
+          {
+            "Uncertain about her path after high school, Lisa lacked proper guidance and mentorship. Lisa’s dream was to be a professional singer/performer so after working at her Father’s Advertising Specialty company as a Secretary for close to 5 years, she enrolled in Music College to pursue her singing passion."
+          }
           <span className="h-3 block" />
-          After this initial work experience, Lisa realized she needed to spread
-          her wings and find more of a sustainable lasting career. Once again
-          not having any mentorship help on what course to choose, Lisa would
-          end up defaulting to her dream which was to be a professional
-          Singer/Performer. She would end up enrolling in a local {
-            "college's"
-          }{" "}
-          commercial music program. While pursuing her dream in various musical
-          collaborations, performing live and being part of bands, Lisa also
-          worked in office administration roles for a total of nine years to
-          sustain herself.
-          <br />
+          {
+            "After completing her college, Lisa went on to pursue various different musical aspirations in her spare time while working during the day in various different Office Administration roles.  She would end up doing this in many different industries for a total of 9 years."
+          }
           <span className="h-3 block" />
-          As time went on, {"Lisa's"} career journey took different paths. She
-          ventured into the cosmetic industry, working as a cosmetician and
-          eventually becoming a cosmetic manager for prestigious brands. Seeking
-          new experiences, she briefly worked on cruise ships in the gift shops.
-          However, she knew deep down that this {"wasn't"} her lifelong calling.
-          <br />
+          {
+            "During Lisa’s work career, at one point, she ventured into the cosmetic industry, working as a cosmetician and then graduating to higher roles as Cosmetic Manager and even Makeup Specialist for prestigious brands. She successfully worked in the industry for 9 years until she decided to venture out and seek new experiences.  Her 1st job after leaving the retail cosmetic field was a stint working on the cruise ships in the gift shops, however Lisa knew deep down that this wasn't her lifelong calling so after she finished working on the cruise ship she decided to once again return to college.  This time enrolling in the Arts and Entertainment Management program."
+          }
+          <span className="h-3 block" />
+          {
+            "After successfully graduating from the program and armed with her newfound knowledge, Lisa went on to successfully book tours for a Beatles tribute band.  Once she completed that endeavour she went into starting her own business part-time as a Booking Agent for different entertainment acts. "
+          }
+          <span className="h-3 block" />
         </p>
         {showMore && (
           <p className="text-lg leading-8 text-gray-500">
-            Recognizing her affinity for the entertainment industry, Lisa
-            decided to return to school and enrolled in the Arts and
-            Entertainment Management program. Armed with her newfound knowledge,
-            she successfully booked tours for a Beatles tribute band and
-            eventually ventured into entrepreneurship, becoming a booking agent
-            for entertainment acts. Alongside her part-time role as a booking
-            agent, Lisa joined a self-development company called Peak
-            Potentials, initially as a customer service representative and then
-            advancing to the Event Planning department with the skills she had
-            as a Booking agent for bands. During this time, Lisa took advantage
-            of the many courses Peal Potentials offered also to staff which
-            included the likes of Wizard Training, Enlightened Warrior Training,
-            Life Directions and Spiritual Gifts. By taking these courses,{" "}
-            {"Lisa's"} spiritual and personal growth expanded greatly. She
-            particularly found the course Spiritual Gifts the most interesting
-            and useful as it helped her to understand all the different gifts
-            bestowed to you upon birth and help you utilize them in your life
-            for the betterment of others.
-            <br />
-            While Lisa anticipated a long-term career with Peak Potentials, a
-            significant layoff led to unemployment once again. Determined to
-            adapt and use her own journey to help others, Lisa returned to
-            school yet again, this time she decided to pursue a course called
-            Career Development Practitioner as she had discovered that she had
-            another passion besides music which was to help others decide on
-            their careers and help them to find jobs. This being spurred on by
-            her own experiences with struggling with same. After successfully
-            completing the program and certificate in hand, Lisa secured an
-            entry-level position in the field, providing support to individuals
-            who were unemployed. She worked diligently in the industry for some
-            years until another restructuring wave resulted in her contract not
-            being renewed.
-            <br />
+            {
+              "Alongside her part-time role as a booking agent, Lisa went on to work for a self-development company akin to that of Tony Robbins initially as a Customer Service Agent and then advancing to the Event Planning department with the skills she had acquired as a Booking agent for bands. During this time, Lisa took advantage of the many courses the company offered to staff which included the likes of Wizard Training, Enlightened Warrior Training, Life Directions and Spiritual Gifts. By taking these courses, Lisa's spiritual and personal growth expanded greatly. Lisa particularly found the course Spiritual Gifts the most interesting and useful as it helped her to discover all the different gifts bestowed to you upon birth and then utilizing them in your life for the betterment of others."
+            }
             <span className="h-3 block" />
-            Facing unemployment yet again, Lisa stumbled upon a new opportunity
-            when she came across an advertisement seeking driving instructors.
-            Combining her love for driving and teaching, she applied and got
-            hired with the company hence obtaining her Driving {
-              "Instructor's"
-            }{" "}
-            license. Over the years, Lisa worked for different driving schools,
-            but at the age of 49, she realized the need to become self-employed
-            and work for herself rather than depending on others for her
-            paycheck. Drawing upon her newfound knowledge, she established her
-            own driving school from scratch, overcoming numerous obstacles and
-            mastering all aspects of running a business all on her own.
-            <br />
+            {
+              "While Lisa anticipated a long-term career with Peak Potentials, a significant layoff occurred which led to unemployment once again. Determined to adapt to her situation, Lisa decided to return to school again. After researching a variety of different directions she could go, she decided to choose a program called Career Development Practitioner.  She decided that on that one as she now realized that because of her many different career and job changes, that she had a passion to help others going through same.  Lisa also has an enthusiasm and passion for helping people decide on what career path or job to choose as well as helping people with any other life changing decision for that matter."
+            }
             <span className="h-3 block" />
-            It was during this time however, that Lisa’s personal life would
-            take a significant hit. She found herself entangled in a toxic
-            relationship with someone she believed to be the love of her life.
-            It was during this painful experience that Lisa discovered the harsh
-            truth—a malignant narcissist had infiltrated her life. Determined to
-            understand and heal from the toxic patterns that had plagued her,
-            Lisa embarked on an intensive research journey into narcissism.
-            Through countless books, informative videos, and self-development
-            topics, she gained a profound understanding of her own experiences.
-            In support groups and counseling, Lisa sought guidance and actively
-            worked on navigating her internal struggles.
-            <br />
+            {
+              "After successfully completing the program and certificate in hand, Lisa secured an entry-level position in the employment field supporting the Employment Counsellors and helping people with their resumes and cover letters or just navigating the internet.  She worked diligently in the industry for some years until a restructuring wave in that industry occurred as well.  "
+            }
             <span className="h-3 block" />
-            Though her journey felt precarious at times, {"Lisa's"} unwavering
-            commitment to her business propelled her forward. Despite the grief
-            and heartache, she knew she had to continue her entrepreneurial
-            endeavors to sustain herself financially. It was during this
-            transformative period that Lisa had come to the conclusion that this
-            all happened for a reason and that was to help others going through
-            same or similar circumstances as her. Motivated by her newfound
-            purpose, she enrolled in a Life Coaching program and obtained her
-            certification. Simultaneously, Lisa began writing a book on her
-            personal story, aiming to inspire and assist others who had endured
-            similar situations. (Book launch date to be announced soon – stay
-            tuned!).
-            <br />
+            {
+              "This time while facing unemployment, Lisa would stumbled upon a new career opportunity when she came across an advertisement seeking Driving Instructors with Young Drivers of Canada. Recognizing that she had a combined love for driving as well as one on one coaching, she applied for the job and was hired then obtaining her Driving Instructor's license. "
+            }
             <span className="h-3 block" />
-            Equipped with her extensive research on narcissism, coupled with her
-            life coaching certification and other credentials, Lisa now feels
-            well-prepared to help individuals struggling with loneliness,
-            isolation, and a lack of direction. Her mission is to provide
-            affordable coaching and tools she has learned along her own journey.
-            This infused with her caring and encouraging attributes to help
-            others who feel stuck or just need someone to support them through
-            their trials in life.
-            <br />
+            {
+              "For the next few years, Lisa worked for different driving schools, until at the age of 48, she came to the profound realization that she would be better off being Self-Employed rather than working for others, hence being in control of her own financial destiny so she enrolled in the Government sponsored Self Employed program and learned everything she needed to know to start up and run a successful business.  "
+            }
             <span className="h-3 block" />
-            Through the many skills and life experiences Lisa has gained through
-            her personal experience coupled with her Life Coach certification,
-            Lisa aims to help as many people as possible navigate the challenges
-            of life. This would include anyone suffering from loneliness,
-            isolation, Narcissistic relationships or supporting people
-            navigating how to get from stuck to achieving their true calling or
-            potential. If you are looking for the most supportive person you can
-            ask for Lisa is it. Not only that, Lisa believes that everyone
-            deserves support and guidance. She has made You’ve Got a Friend Chat
-            and Mentor Service accessible to those who are not able to afford
-            traditional Life Coaching rates and services which inhibits them
-            from being able to get the assistance they need.
+            {
+              "After completing the program, Lisa started her own Driving School which she did everything herself that was required to build and run the business.  This included research, marketing, advertising, creating and building a website, choosing logos and designs, networking, doing all of the required administration work, scheduling and providing the actual lessons itself. Lisa had been running the business full time since 2015 successfully.  "
+            }
+            <span className="h-3 block" />
+            {
+              "Meanwhile, while running her business something in Lisa’s personal life made a substantial impact on her life.  She found herself entangled in a toxic relationship with someone who she loved very much but discovered later that he was in fact a Malignant Narcissist. After this experience, determined to understand the ordeal that plague her, Lisa embarked on an intensive research journey into narcissism.  Since that experience which happened in 2017, Lisa has research everything there is to know about what a Narcissist does and what you can do to help yourself through the experience.  She also herself took counselling and was in Support groups.  She did this all while she was still running her business."
+            }
+            <span className="h-3 block" />
+            {
+              "It was this significant event that propelled Lisa to realize that this experience was meant for her to help others going through traumatic events like she has so she went on to take more courses and obtain her Life Coaching certification.  Since Lisa’s life journey has consisted of reading countless self-help books as well as taking courses, Lisa feels armed and ready to help others going through struggles.  "
+            }
+            <span className="h-3 block" />
+            {
+              "Lisa’s latest course is in Neuro Wellness where she can provide healing exercises for people experiencing anxiety.  She would also like to further assist her clients who need some calming or meditation practices to assist them with anxiety or depression.  She is also in the process of writing a memoir on her story which she hopes will help others going through a Narcissistic experience such as hers – Stay tuned for release date"
+            }
+            <span className="h-3 block" />
+            {
+              "Lisa’s life experience enables her to be extremely empathetic with others.  She has a strong desire to assist others going through trials in life.  Lisa feels it is time to take all of her learnings and experiences she has cultivated over her lifetime to assist people in her new endeavour which is You've Got’ a Friend Chat and Mentoring Service.  She developed this to give people a way to talk to someone more often than your typical once a week at a much more affordable rate. Something she felt she needed when she was going through her own trials."
+            }
+            <span className="h-3 block" />
+            {
+              "Through the many skills and life experiences Lisa has gained through her personal experience coupled with her Life Coach certification, Lisa aims to help as many people as possible navigate the challenges of life. This would include anyone suffering from loneliness, isolation, Narcissistic relationships or supporting people navigating how to get from stuck to achieving their true calling or potential. "
+            }
+            <span className="h-3 block" />
+            {
+              "If you are looking for the most supportive, empathetic and caring person you can ask for, Lisa is it. Please reach out see our pricing packages below and start your chatting or mentoring call today!  "
+            }
+            <span className="h-3 block" />
+            {
+              "We look forward to talking to you soon.  In the meantime, remember, there is always a solution to every problem.  Sometimes we just need help finding it!"
+            }
           </p>
         )}
         <button

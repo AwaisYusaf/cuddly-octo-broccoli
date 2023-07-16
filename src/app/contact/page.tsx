@@ -28,43 +28,22 @@ export default function Page() {
     <>
       <main>
         <Header selected="contact" />
-        <div className="w-[85%] mx-auto grid grid-cols-3 gap-x-6 gap-y-4 py-12">
-          <div
-            className="py-4 flex flex-col space-y-2 rounded-md items-center text-center
-         bg-[#4E244D] text-white col-span-3 lg:col-span-1"
-          >
-            <HiPhone size={70} color="white" />
-            <h2 className="text-2xl font-semibold">Call Us</h2>
-            <p>(123) 456-7890</p>
-          </div>
-          <div
-            className="py-4 flex flex-col space-y-2 rounded-md items-center text-center
+        <div className="w-[85%] mx-auto flex items-center justify-center gap-x-6 gap-y-4 py-12">
+          <a
+            href="mailto:info@ygafchatandmentor.com"
+            className="py-4 flex justify-center w-[35%] rounded-md items-center
          bg-[#4E244D] text-white col-span-3 lg:col-span-1"
           >
             <HiMail size={70} color="white" />
-            <h2 className="text-2xl font-semibold">Email Us</h2>
-            <p>info@domain.com</p>
-          </div>
-          <div
-            className="py-4 flex flex-col space-y-2 rounded-md items-center text-center
-         bg-[#4E244D] text-white col-span-3 lg:col-span-1"
-          >
-            <MdLocationOn size={70} color="white" />
-            <h2 className="text-2xl font-semibold">Address</h2>
-            <p>Dummy Address</p>
-          </div>
+            <div>
+              <h2 className="text-xl font-semibold">Email Us</h2>
+              <p>info@ygafchatandmentor.com</p>
+            </div>
+          </a>
         </div>
         <div className="flex w-[85%] mx-auto flex-col lg:flex-row">
-          <div className="basis-1/2">
-            <iframe
-              className="w-full"
-              src="https://www.google.com/maps/d/embed?mid=1ASMKulrsDXA4M4STShhx4HauVDs&hl=en&ehbc=2E312F"
-              width="640"
-              height="480"
-            ></iframe>
-          </div>
           {isSubmitted ? (
-            <div className="basis-1/2 bg-[#4E244D91] flex flex-col justify-center py-6 px-4 lg:space-y-0 space-y-4">
+            <div className=" bg-[#4E244D91] flex flex-col justify-center py-6 px-4 lg:space-y-0 space-y-4">
               <p className="text-white text-lg text-center w-full py-3 border border-white">
                 Thanks for contacting us!
               </p>
@@ -72,7 +51,7 @@ export default function Page() {
           ) : (
             <form
               onSubmit={handleSubmit(handleForm)}
-              className="basis-1/2 bg-[#4E244D91] flex flex-col justify-between py-6 px-4 lg:space-y-0 space-y-4"
+              className="ml-auto w-[68%] bg-[#4E244D91] flex gap-y-2 flex-col justify-between py-6 px-4 lg:space-y-0 space-y-4"
             >
               <input
                 {...register("name")}

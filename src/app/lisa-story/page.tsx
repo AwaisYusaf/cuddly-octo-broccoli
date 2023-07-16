@@ -16,13 +16,50 @@ export default function Page() {
         <div className="relative overflow-x-hidden bg-[url('/assets/hero-img.png')] bg-cover bg-right bg-no-repeat">
           <div className="absolute w-full h-full bg-black/80 z-10" />
           <div className="w-[95%]  md:w-[85%] lg:w-[75%] mx-auto lg:text-start text-center flex flex-col space-y-14 py-20">
+            <motion.p
+              initial={{ x: -200, opacity: 0 }}
+              viewport={{ once: true }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1 }}
+              className="text-gray-100 text-lg z-30 leading-8 "
+            >
+              {
+                "Welcome to You've Got a Friend Chatting and Mentoring service, where you'll find the support and guidance you've been seeking."
+              }
+              <br />
+              <br />
+              {
+                "At times, we all yearn for someone to talk to, someone who understands and listens without judgment. But it's not always easy to find that person in our immediate circle without feeling like a “negative nanny” or “Debbie Downer”, that’s where we come in.  We provide that listening supportive ear for you.  It may be you are going through a personal crisis or you just need someone to talk to because you might be feeling lonely or isolated.  We are here to help."
+              }
+              <br />
+              <br />
+              {
+                "It could also be that you need a qualified Coach or Mentor to help you untangle your problems, explore solutions, hold you accountable to your goals, or simply be a neutral sounding board?  We are also there to help you with this. Either way, you choose what you would like us to assist you with.  Rest assured, we will not be judgmental and will listen with empathy and understanding.  We want to help, that is the bottom line."
+              }
+              <br />
+              <br />
+              {
+                "Have you ever felt like you wanted to talk to someone more than just once a week?  Traditional coaching services can often be expensive and the average time people talk to one is only about once a week.  With You’ve Got A Friend Chat and Mentor Service, our goal is to make us more accessible to you so you can talk to someone about your life problems more often than that.  That is why we have created monthly pricing packaging options.  You choose the one right for you.  You also choose whether you would like Coaching or Chatting in your sessions or maybe it’s a combination of both.  You are in charge"
+              }
+              !
+              <br />
+              <br />
+              {
+                "Whether you prefer to dip your toes in the water with our 1-hour option or dive in for our 30 hour package, our prices are affordable and flexible. "
+              }
+              <br />
+              <br />
+              {
+                "Take a look at our pricing options and if you have any questions at all, remember, we are just a click away!"
+              }
+            </motion.p>
             <div className={`${heptaSlab.className} z-30`}>
               <motion.h1
                 initial={{ x: 200, opacity: 0 }}
                 viewport={{ once: true }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
-                className="lg:text-4xl md:text-3xl text-2xl z-30 underline underline-offset-8 text-white"
+                className="lg:text-4xl md:text-3xl text-2xl z-30 text-[#04ABD3] font-semibold"
               >
                 {"HOW IT WORKS"}
               </motion.h1>
@@ -91,7 +128,7 @@ export default function Page() {
                 viewport={{ once: true }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
-                className="lg:text-4xl md:text-3xl text-2xl z-30 underline underline-offset-8 text-white"
+                className="lg:text-4xl md:text-3xl text-2xl z-30 text-[#04ABD3] font-semibold"
               >
                 {/* LISA’S EXPERIENCE AND EDUCATION */}
                 WHAT BENEFITS CAN YOU EXPECT TO GET FROM OUR SERVICES?
@@ -158,7 +195,7 @@ export default function Page() {
                   viewport={{ once: true }}
                   whileInView={{ x: 0, opacity: 1 }}
                   transition={{ duration: 1 }}
-                  className="lg:text-4xl md:text-3xl text-2xl z-30 underline underline-offset-8 text-white"
+                  className="lg:text-4xl md:text-3xl text-2xl z-30 text-[#04ABD3] font-semibold"
                 >
                   {"WHAT OUR CHAT AND MENTORING SERVICE IS NOT"}
                 </motion.h1>
