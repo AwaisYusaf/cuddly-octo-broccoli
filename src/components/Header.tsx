@@ -46,7 +46,7 @@ export default function Header({ selected }: Props) {
               href="/lisa-story"
               className="text-2xl  border-b border-gray-300 py-3 font-medium"
             >
-              Lisa Story
+              About Us
             </Link>
             <Link
               href="/all-packages"
@@ -55,16 +55,16 @@ export default function Header({ selected }: Props) {
               Packages
             </Link>
             <Link
+              href="/blog"
+              className="text-2xl  border-b border-gray-300 py-3 font-medium"
+            >
+              Blog
+            </Link>
+            <Link
               href="/contact"
               className="text-2xl  border-b border-gray-300 py-3 font-medium"
             >
               Contact
-            </Link>
-            <Link
-              href="/about-us"
-              className="text-2xl  border-b border-gray-300 py-3 font-medium"
-            >
-              About Us
             </Link>
           </motion.div>
         </div>
@@ -122,12 +122,12 @@ export default function Header({ selected }: Props) {
           </Link>
 
           <Link
-            href="/about-us"
+            href="/blog"
             className="relative border-x h-[100px] flex  items-center justify-center group px-5 text-center"
           >
             <div
               className={`absolute top-0  ${
-                selected == "about-us"
+                selected == "blog"
                   ? "translate-y-0 bg-red-600"
                   : "-translate-y-48 group-hover:translate-y-0 bg-black"
               }  z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
