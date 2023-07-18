@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import { MdFacebook } from "react-icons/md";
 import { SiFacebook, SiTwitter, SiLinkedin } from "react-icons/si";
 type Props = {};
 import Link from "next/link";
@@ -32,9 +31,9 @@ export default function Footer({}: Props) {
             About Us
           </h1>
           <p className="leading-8 text-gray-500 w-[90%]">
-            Lisa successfully built her business up from scratch to working full
-            time, 7 days a week. She did this until one day in 2017, Lisa’s
-            personal life took a very hard hit.
+            {
+              "Whether you need to simply talk during challenging times or need guidance from our experienced Mentor, we provide a safe and welcoming space for you. Share your thoughts, seek guidance, and find comfort in knowing that you have a friend who genuinely cares. With You've Got a Friend Chat and Mentor Service, you can receive the support you need to navigate through rough days, gain insights, and achieve your goals towards a more positive life."
+            }
           </p>
         </div>
         <div className="flex flex-col space-y-5">

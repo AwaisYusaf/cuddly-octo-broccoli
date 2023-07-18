@@ -33,6 +33,20 @@ export default function HeroSection({}: Props) {
             viewport={{ once: true }}
             className="z-20 w-full mx-auto lg:mx-0 lg:w-[50%] text-white text-base lg:text-lg"
           >
+            At {"You've"} Got a Friend, our mission is to extend a supportive
+            hand to those experiencing isolation or loneliness. Whether you
+            require a compassionate listener to turn to on difficult days or
+            seek the expert guidance of our Mentor to navigate challenging times
+            and embrace a brighter future. Or maybe possibly during your
+            session, you would prefer a healing exercises to cultivate inner
+            calm and balance during periods of high stress, whatever it is, we
+            are there to provide the assistance that you need.
+            <br />
+            Check out our very affordable rates below and if you have any
+            questions, do not hesitate to contact us. We are always ready to
+            assist you in whatever ways and means you need. Just reach out, we
+            are only a click of the button away!
+            {/* 
             We are here to lend that helping hand to anyone experiencing
             isolation, lonliness or depression. You might need someone to talk
             to if you are having a rough day. Maybe you need mentoring or
@@ -40,7 +54,7 @@ export default function HeroSection({}: Props) {
             needed goals, have someone to support you, encourage you and even
             mentor you. Or it could be that you want our Mentor to guide you
             through some healing exercises. Whatever it is that ails you, we are
-            here to support you through your situation.
+            here to support you through your situation. */}
           </motion.p>
         </div>
       </div>

@@ -14,34 +14,45 @@ export default function LandingDisclaimar({}: Props) {
           className="text-gray-300 leading-8 text-base lg:text-lg z-20 list-outside list-disc 
         flex flex-col space-y-6"
         >
-          <li className="">
-            Lisa is not a trained therapist or counselor. She is just a life
-            coach and cannot help you with complex psychiatric issues, but if
-            you need to talk to someone urgently, call Lisa and she will be able
-            to contact you. , can be prevented. {"Don’t"} do anything that could
-            put you in danger. In this case, you can arrange a phone call with
-            Lisa.
+          <li>
+            Your Coach is a trained Life Coach and not a licensed Therapist or
+            Counsellor. She cannot provide assistance for complex psychiatric
+            problems or recommend medications. If you require help in these
+            areas, it is recommended to seek guidance from a medical
+            professional, psychologist, or psychiatrist.
           </li>
           <li>
-            We are not a suicide hotline if you are ready to end your life at
-            this time. If you are looking to end your life, I recommend calling
-            your local suicide hotline. They are trained to help in this case.
+            We are not a suicide hotline. If you are experiencing thoughts of
+            ending your life, please contact emergency services or a designated
+            suicide hotline in your area. They are equipped with the proper
+            training to assist individuals in crisis. However, if you are in
+            need of someone to talk to during a crisis situation, we are here to
+            provide support and help you find resources to keep you safe.
           </li>
           <li>
-            Remember that all scheduled calls must be made during an open time
-            in {"Lisa’s"}
+            Please note that scheduled calls are subject to {"Lisa's"}{" "}
+            availability. We will do our best to accommodate your preferred
+            time, but scheduling is based on the {"coach's"} existing
+            commitments.
           </li>
           <li>
-            We also do not tolerate Lisa reserves the right to end calls and
-            cancel all future calls of any type of abusive conversation or of a
-            sexual nature. In this case, Lisa will contact her customer to see
-            how the upcoming call will go. Lisa reserves the right to decide
-            whether to continue to assist the person. Depending on the
-            circumstances and reasons for cancellation, Lisa reserves the right
-            to determine refunds for her future calls. Lisa will be in contact
-            with you to see what is best for your situation. This is all
-            included in a questionnaire that each person completes at the
-            beginning, which must be agreed upon prior to the session with Lisa.
+            Abusive or sexually explicit language will not be tolerated during
+            coaching sessions. If such behavior occurs, your Coach reserves the
+            right to end the call and cancel any future sessions. Following such
+            an incident, your Coach will reach out to discuss the situation and
+            determine the appropriate course of action. Depending on the outcome
+            of the conversation, your Coach may decide to continue or terminate
+            the coaching relationship. If termination is necessary, our refund
+            policy, outlined in the Coaching policies, will apply. We kindly ask
+            that you review and agree to these policies before starting your
+            Chat and Mentor sessions.
+          </li>
+          <li>
+            Please remember that the services provided by {"You've"} Got a
+            Friend Chat and Mentor Service are intended to offer support,
+            guidance, and a listening ear. While we strive to provide a safe and
+            helpful environment, it is important to seek professional help for
+            severe psychiatric issues or emergency situations.
           </li>
         </ul>
       </div>
