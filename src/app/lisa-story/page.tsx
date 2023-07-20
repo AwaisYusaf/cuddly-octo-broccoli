@@ -23,9 +23,11 @@ export default function Page() {
               transition={{ duration: 1 }}
               className="text-gray-100 text-lg z-30 leading-8 "
             >
-              {
-                "Welcome to You've Got a Friend Chatting and Mentoring service, where you'll find the support and guidance you've been seeking."
-              }
+              <span className="lg:text-2xl md:text-xl text-lg z-30 text-[#04ABD3] font-semibold">
+                {
+                  "Welcome to You've Got a Friend Chatting and Mentoring service, where you'll find the support and guidance you've been seeking."
+                }
+              </span>
               <br />
               <br />
               {

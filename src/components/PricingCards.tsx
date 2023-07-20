@@ -10,9 +10,7 @@ export default function PricingCards({}: Props) {
   //1. Basic
   //2. Standard
   //3. Premium
-  function handleCheckout(id: number) {
-    console.log(id);
-  }
+
   return (
     <div className="bg-white dark:bg-gray-900 rounded-lg">
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">

@@ -11,8 +11,8 @@ export default function LandingDisclaimar({}: Props) {
           DISCLAIMER
         </h1>
         <ul
-          className="text-gray-300 leading-8 text-base lg:text-lg z-20 list-outside list-disc 
-        flex flex-col space-y-6"
+          className="text-gray-300 leading-8 text-base z-20 list-outside list-disc 
+        flex flex-col space-y-4"
         >
           <li>
             Your Coach is a trained Life Coach and not a licensed Therapist or
