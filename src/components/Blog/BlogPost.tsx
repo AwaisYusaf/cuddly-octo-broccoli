@@ -9,7 +9,7 @@ const heptaSlab = Hepta_Slab({
 
 export default function BlogPost({}: Props) {
   return (
-    <div className="mx-auto w-[80%] flex flex-col items-center space-y-4 mt-8">
+    <div className="mx-auto lg:w-[80%] md:w-[85%] w-[95%] flex flex-col items-center space-y-4 mt-8">
       <h1
         className={`${heptaSlab.className} text-4xl text-center font-semibold text-gray-700`}
       >
