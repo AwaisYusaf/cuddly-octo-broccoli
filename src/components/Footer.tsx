@@ -58,13 +58,7 @@ export default function Footer({}: Props) {
             Contact Us
           </h1>
           <Link href="/" className="text-gray-500">
-            +(123)456-7891
-          </Link>
-          <Link href="/" className="text-gray-500">
-            info@gmail.com
-          </Link>
-          <Link href="/" className="text-gray-500">
-            Dummy Address Street 12
+            info@ygafchatandmentor.com
           </Link>
         </div>
       </div>

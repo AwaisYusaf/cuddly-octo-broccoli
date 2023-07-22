@@ -61,7 +61,7 @@ export default function Page() {
                 viewport={{ once: true }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
-                className="lg:text-4xl md:text-3xl text-2xl z-30 text-[#04ABD3] font-semibold"
+                className="lg:text-2xl md:text-xl text-lg z-30 text-[#04ABD3] font-semibold"
               >
                 {"HOW IT WORKS"}
               </motion.h1>
@@ -130,7 +130,7 @@ export default function Page() {
                 viewport={{ once: true }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
-                className="lg:text-4xl md:text-3xl text-2xl z-30 text-[#04ABD3] font-semibold"
+                className="lg:text-2xl md:text-xl text-lg z-30 text-[#04ABD3] font-semibold"
               >
                 {/* LISA’S EXPERIENCE AND EDUCATION */}
                 WHAT BENEFITS CAN YOU EXPECT TO GET FROM OUR SERVICES?
@@ -197,7 +197,7 @@ export default function Page() {
                   viewport={{ once: true }}
                   whileInView={{ x: 0, opacity: 1 }}
                   transition={{ duration: 1 }}
-                  className="lg:text-4xl md:text-3xl text-2xl z-30 text-[#04ABD3] font-semibold"
+                  className="lg:text-2xl md:text-xl text-lg z-30 text-[#04ABD3] font-semibold"
                 >
                   {"WHAT OUR CHAT AND MENTORING SERVICE IS NOT"}
                 </motion.h1>

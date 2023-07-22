@@ -1,4 +1,5 @@
 import React from "react";
+import testimonials from "@/constants/testimonials";
 import TestimonialCard from "./TestimonialCard";
 
 type Props = {};
@@ -26,15 +27,9 @@ export default function Testimonials({}: Props) {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] lg:w-[85%] mx-auto pt-4 lg:pt-12 gap-4">
-          <TestimonialCard />
-          <TestimonialCard />
-          <TestimonialCard />
-          <TestimonialCard />
-          <TestimonialCard />
-          <TestimonialCard />
-          <TestimonialCard />
-          <TestimonialCard />
-          <TestimonialCard />
+          {testimonials.map((t: any, i: number) => {
+            return <TestimonialCard key={i} data={t} />;
+          })}
         </div>
       </div>
     </div>
