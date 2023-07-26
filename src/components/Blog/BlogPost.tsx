@@ -11,7 +11,7 @@ export default function BlogPost({}: Props) {
   return (
     <div className="mx-auto lg:w-[80%] md:w-[85%] w-[95%] flex flex-col items-center space-y-4 mt-8">
       <h1
-        className={`${heptaSlab.className} text-4xl text-center font-semibold text-gray-700`}
+        className={`${heptaSlab.className} text-2xl text-center font-semibold text-gray-700`}
       >
         15 WAYS TO COPE WITH ISOLATION AND LONELINESS
       </h1>
@@ -23,10 +23,10 @@ export default function BlogPost({}: Props) {
         height="600"
       />
       <div>
-        <h2 className="text-xl font-semibold">
+        <h2 className="text-lg font-semibold">
           1: Unveiling the Silent Killer
         </h2>
-        <p className="text-lg leading-8">
+        <p className=" leading-8">
           Loneliness is often underestimated in its impact on our lives. It
           silently creeps into our existence, affecting our physical and mental
           well-being. Research shows that prolonged loneliness can lead to
@@ -43,10 +43,10 @@ export default function BlogPost({}: Props) {
       </div>
 
       <div>
-        <h2 className="text-xl font-semibold">
+        <h2 className="text-lg font-semibold">
           2: The {"Pandemic's"} Unwanted Ally
         </h2>
-        <p className="text-lg leading-8">
+        <p className=" leading-8">
           The COVID-19 pandemic brought with it a new wave of loneliness.
           Lockdowns, social distancing measures, and isolation became the new
           norm. The pandemic amplified feelings of isolation and
@@ -62,10 +62,10 @@ export default function BlogPost({}: Props) {
       </div>
 
       <div>
-        <h2 className="text-xl font-semibold">
+        <h2 className="text-lg font-semibold">
           3: Unraveling the Loneliness Paradox
         </h2>
-        <p className="text-lg leading-8">
+        <p className=" leading-8">
           In {"today's"} hyper connected world, loneliness paradoxically
           prevails. Despite the constant virtual connections offered by social
           media and technology, many individuals still experience profound
@@ -79,10 +79,10 @@ export default function BlogPost({}: Props) {
       </div>
 
       <div>
-        <h2 className="text-xl font-semibold">
+        <h2 className="text-lg font-semibold">
           4: Loneliness in Different Stages of Life
         </h2>
-        <p className="text-lg leading-8">
+        <p className=" leading-8">
           Loneliness affects individuals across different stages of life.
           Adolescence can be a particularly vulnerable period, where social
           pressures, bullying, and the desire for acceptance can contribute to
@@ -97,10 +97,10 @@ export default function BlogPost({}: Props) {
       </div>
 
       <div>
-        <h2 className="text-xl font-semibold">
+        <h2 className="text-lg font-semibold">
           5: The Ripple Effect of Loneliness{" "}
         </h2>
-        <p className="text-lg leading-8">
+        <p className=" leading-8">
           The impact of loneliness extends beyond individual well-being. It
           affects society as a whole. Loneliness is linked to increased
           healthcare costs, decreased workplace productivity, and diminished
@@ -114,10 +114,10 @@ export default function BlogPost({}: Props) {
       </div>
 
       <div>
-        <h2 className="text-xl font-semibold">
+        <h2 className="text-lg font-semibold">
           6: Breaking Free from the Shackles
         </h2>
-        <p className="text-lg leading-8">
+        <p className=" leading-8">
           Combatting loneliness requires proactive measures. Individuals can
           take steps to break free from the shackles of isolation. Self-care
           practices, such as nurturing physical and mental well-being, can help
@@ -131,8 +131,8 @@ export default function BlogPost({}: Props) {
       </div>
 
       <div>
-        <h2 className="text-xl font-semibold">7: The Power of Community</h2>
-        <p className="text-lg leading-8">
+        <h2 className="text-lg font-semibold">7: The Power of Community</h2>
+        <p className=" leading-8">
           Community plays a vital role in combating loneliness. By fostering a
           sense of belonging, providing emotional support, and offering
           opportunities for social interaction, communities create an
@@ -147,10 +147,10 @@ export default function BlogPost({}: Props) {
       </div>
 
       <div>
-        <h2 className="text-xl font-semibold">
+        <h2 className="text-lg font-semibold">
           8: Embracing Technology as a Tool for Connection
         </h2>
-        <p className="text-lg leading-8">
+        <p className=" leading-8">
           Technology has revolutionized the way we connect with others. It has
           the potential to bridge the gap between individuals and provide
           platforms for meaningful interactions. Online communities, video
@@ -166,10 +166,10 @@ export default function BlogPost({}: Props) {
       </div>
 
       <div>
-        <h2 className="text-xl font-semibold">
+        <h2 className="text-lg font-semibold">
           9: Cultivating Meaningful Relationships
         </h2>
-        <p className="text-lg leading-8">
+        <p className=" leading-8">
           Meaningful relationships are fundamental to combatting loneliness.
           Nurturing friendships, fostering emotional intimacy, and engaging in
           activities that create shared experiences can all contribute to a
@@ -187,10 +187,10 @@ export default function BlogPost({}: Props) {
       </div>
 
       <div>
-        <h2 className="text-xl font-semibold">
+        <h2 className="text-lg font-semibold">
           10: Overcoming Social Anxiety and Fear of Rejection
         </h2>
-        <p className="text-lg leading-8">
+        <p className=" leading-8">
           Social anxiety and the fear of rejection can be significant barriers
           to overcoming loneliness. Individuals may hesitate to reach out,
           fearing judgment or exclusion. Overcoming these obstacles requires
@@ -205,10 +205,10 @@ export default function BlogPost({}: Props) {
       </div>
 
       <div>
-        <h2 className="text-xl font-semibold">
+        <h2 className="text-lg font-semibold">
           11: Rediscovering Self-Love and Inner Fulfillment
         </h2>
-        <p className="text-lg leading-8">
+        <p className=" leading-8">
           Self-love and inner fulfillment are essential aspects of combating
           loneliness. By nurturing a positive relationship with oneself,
           practicing self-care, and cultivating a sense of purpose, individuals
@@ -223,10 +223,10 @@ export default function BlogPost({}: Props) {
       </div>
 
       <div>
-        <h2 className="text-xl font-semibold">
+        <h2 className="text-lg font-semibold">
           12: Spreading Compassion and Empathy
         </h2>
-        <p className="text-lg leading-8">
+        <p className=" leading-8">
           Acts of kindness, compassion, and empathy can alleviate the burden of
           loneliness. By extending a helping hand, offering support, and
           listening without judgment, individuals can make a significant impact
@@ -239,8 +239,8 @@ export default function BlogPost({}: Props) {
       </div>
 
       <div>
-        <h2 className="text-xl font-semibold">13: A Call to Action</h2>
-        <p className="text-lg leading-8">
+        <h2 className="text-lg font-semibold">13: A Call to Action</h2>
+        <p className=" leading-8">
           It is time to take action against loneliness. The {"You've"} Got a
           Friend Chat and Mentor Service calls upon readers to reach out, seek
           support, and break free from the grip of isolation. By sharing their
@@ -254,10 +254,10 @@ export default function BlogPost({}: Props) {
       </div>
 
       <div>
-        <h2 className="text-xl font-semibold">
+        <h2 className="text-lg font-semibold">
           14: Embracing Connection in a Post-Pandemic World
         </h2>
-        <p className="text-lg leading-8">
+        <p className=" leading-8">
           As the world begins to heal from the pandemic, it is crucial to
           prioritize human connection and well-being. {"You've"} Got a Friend
           Chat and Mentor Service encourages individuals to embrace connection,
@@ -272,10 +272,10 @@ export default function BlogPost({}: Props) {
       </div>
 
       <div>
-        <h2 className="text-xl font-semibold">
+        <h2 className="text-lg font-semibold">
           15: Seeking Help from a Qualified Professional
         </h2>
-        <p className="text-lg leading-8">
+        <p className=" leading-8">
           During times of loneliness and isolation, seeking professional help
           from a qualified counselor, coach, or therapist can be invaluable.
           These feelings of isolation can take a toll on our mental and
@@ -298,10 +298,10 @@ export default function BlogPost({}: Props) {
         </p>
       </div>
       <div>
-        <h2 className="text-xl font-semibold">
+        <h2 className="text-lg font-semibold">
           Conclusion: Embracing the Journey to Healing
         </h2>
-        <p className="text-lg leading-8">
+        <p className=" leading-8">
           The journey to healing from loneliness is an ongoing process that
           requires courage, self-reflection, and support. The {"You've"} Got a
           Friend Chat and Mentor Service stands as a beacon of hope, providing

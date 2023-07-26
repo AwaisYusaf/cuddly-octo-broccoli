@@ -37,12 +37,6 @@ export default function SectionTwo({}: Props) {
               "At times, we all yearn for someone to talk to, someone who understands and listens without judgment. But it's not always easy to find that person in our immediate circle without feeling like a burden or dampening the mood. That's where we come in."
             }
           </p>
-          <Link
-            href="/all-packages"
-            className="self-start bg-[#9794C9] rounded uppercase px-8 py-2 text-white font-semibold"
-          >
-            Learn More
-          </Link>
         </div>
       </div>
 
@@ -64,6 +58,12 @@ export default function SectionTwo({}: Props) {
               "Take a look at our pricing options below. If you have any inquiries, please don't hesitate to reach out to us via email or chat. We're here to provide the support and companionship you've been searching for."
             }
           </p>
+          <Link
+            href="/all-packages"
+            className="self-start bg-[#9794C9] rounded uppercase px-8 py-2 text-white font-semibold"
+          >
+            Learn More
+          </Link>
         </div>
         <div className="flex items-center justify-center lg:justify-end basis-1/2">
           <Image
