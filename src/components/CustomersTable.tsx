@@ -4,8 +4,11 @@ import Link from "next/link";
 export default function CustomersTable() {
   const [customersData, setCustomersData] = useState<any>([]);
 
+  //const BASE_APP_URL = "http://localhost:3000";
+  const BASE_APP_URL = "https://www.ygafchatandmentor.com";
+
   async function fetchData() {
-    const res = await fetch("http://localhost:3000/api/customers");
+    const res = await fetch(BASE_APP_URL + "/api/customers");
     const data = await res.json();
     const sorted = data.data.sort((a: any, b: any) => a.id - b.id);
 
