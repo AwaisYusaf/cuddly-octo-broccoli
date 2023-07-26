@@ -32,7 +32,7 @@ async function validateAndUpdate(id: string) {
   if (customer) {
     let updated = { ...customer };
     updated.data.trxStatus = "paid";
-    await setDoc(doc(db, "customers", updated.id), updated);
+    await setDoc(doc(db, "customers", updated.id), updated.data);
   }
 }
 
