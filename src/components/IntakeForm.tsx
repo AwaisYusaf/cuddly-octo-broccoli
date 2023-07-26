@@ -32,7 +32,7 @@ export default function IntakeForm({ id }: { id: any }) {
   const [submitted, setSubmitted] = useState(false);
 
   async function buyPackage(e: FormType) {
-    const res = await fetch("/api/submit-customer", {
+    const res = await fetch(`/api/submit-customer`, {
       method: "POST",
       body: JSON.stringify(e),
     });
@@ -41,7 +41,6 @@ export default function IntakeForm({ id }: { id: any }) {
   }
 
   function handleForm(e: FormType) {
-    console.log(e);
     // setSelectedTab(selectedTab + 1);
     //Do all form submitting process here..
     setSubmitted(true);

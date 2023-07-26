@@ -6,6 +6,8 @@ import { getPackageById } from "@/constants/data";
 
 
 
+////
+
 async function getId() {
     const c = collection(db, "customers");
     const querySnapshot = await getDocs(c);
@@ -46,7 +48,7 @@ async function createSession(packageId: number) {
             mode: 'payment',
             // success_url: `http://localhost:3000/checkout?status=success&id={CHECKOUT_SESSION_ID}`,
             success_url: process.env.STRIPE_SUCCESS_URL!,
-            cancel_url: `http://localhost:3000/checkout?status=failed`,
+            cancel_url: process.env.STRIPE_FAILED_URL!,
         });
         return session;
     } catch (err: any) {
@@ -60,10 +62,11 @@ export async function POST(req: NextRequest) {
 
     const formData = await req.json();
     const id = await getId();
-    //Create a stripe session
+    // //Create a stripe session
     const session = await createSession(+formData.packageId);
+    console.log(session);
 
-    //Save formData in db.
+    // //Save formData in db.
     await setDoc(doc(db, "customers", id.toString()), { ...formData, trxId: session.id, trxStatus: "unpaid" });
 
     return NextResponse.json({ status: "success", url: session.url });
