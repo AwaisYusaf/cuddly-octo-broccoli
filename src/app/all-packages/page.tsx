@@ -31,7 +31,7 @@ export default function Page() {
         <Header selected="packages" />
         <div className="pricingGradient">
           <div className="w-[85%] text-white mx-auto flex flex-col items-center py-20">
-            <h1 className="text-7xl font-medium mb-8">Pricing</h1>
+            <h1 className="text-5xl font-medium mb-8">Pricing</h1>
             <p className="text-lg mb-12 leading-8">
               Welcome to {"You've"} Got a Friend Chat and Mentor Service, where
               we believe that everyone deserves access to help, regardless of

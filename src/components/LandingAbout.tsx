@@ -16,7 +16,7 @@ export default function LandingAbout({}: Props) {
           <h2 className={`${heptaSlab.className} text-4xl font-semibold`}>
             {"LISA’S"} EXPERIENCE AND EDUCATION
           </h2>
-          <p className="text-gray-500 text-lg flex-1">
+          <p className="text-gray-600 text-lg flex-1">
             {
               "Lisa brings a wealth of diverse experience and education to her role as a life coach. She completed a Career Development Practitioner program, equipping her with the tools and skills to assist individuals in navigating career transitions and job changes. With expertise in crafting resumes and cover letters, she can help you present your best self professionally."
             }
@@ -45,7 +45,7 @@ export default function LandingAbout({}: Props) {
           <h2 className={`${heptaSlab.className} text-4xl font-semibold`}>
             {"LISA'S"} ATTRIBUTES
           </h2>
-          <p className="text-gray-500 text-lg flex-1">
+          <p className="text-gray-600 text-lg flex-1">
             {
               "Lisa is a compassionate, supportive, patient, and empathetic coach dedicated to helping individuals.  Her greatest attribute is her gift of encouragement.  What this means is she has an inner passion to encourage you, never growing tired or giving up on you, she is driven with a want and desire to encourage you towards whatever goal you are trying to achieve.  Rest assured, Lisa is a non-judgmental listener, creating a safe space for you to share in a safe and supportive atmosphere. While remaining neutral, she may provide a fresh perspective for you to consider."
             }

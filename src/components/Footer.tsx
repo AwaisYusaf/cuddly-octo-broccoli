@@ -21,9 +21,21 @@ export default function Footer({}: Props) {
         className="self-center"
       />
       <div className="self-center flex space-x-5">
-        <SiFacebook />
-        <SiTwitter />
-        <SiLinkedin />
+        <a
+          href="https://www.facebook.com/profile.php?id=100095488900567"
+          target="_blank"
+        >
+          <SiFacebook />
+        </a>
+        <a href="https://twitter.com/chatandmentor" target="_blank">
+          <SiTwitter />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/lisa-larson-197159287/"
+          target="_blank"
+        >
+          <SiLinkedin />
+        </a>
       </div>
       <div className="w-[95%] lg:w-[80%] mx-auto grid gap-8 grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
         <div className="flex flex-col space-y-5">

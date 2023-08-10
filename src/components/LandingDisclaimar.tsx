@@ -11,10 +11,39 @@ export default function LandingDisclaimar({}: Props) {
           DISCLAIMER
         </h1>
         <ul
-          className="text-gray-300 leading-8 text-base z-20 list-outside list-disc 
-        flex flex-col space-y-4"
+          className="text-gray-100 leading-7 text-lg z-20 list-outside list-disc 
+        flex flex-col space-y-2"
         >
           <li>
+            Your Coach is a trained Life Coach and not a licensed Therapist or
+            Counsellor. She cannot provide assistance for complex psychiatric
+            problems or recommend medications. If you require help in these
+            areas, it is recommended to seek guidance from a medical
+            professional, psychologist, or psychiatrist.
+          </li>
+
+          <li>
+            We are not a suicide hotline. If you are experiencing thoughts of
+            ending your life, please contact emergency services or a designated
+            suicide hotline in your area. They are equipped with the proper
+            training to assist individuals in crisis. However, if you are not in
+            a position where you are ready to harm yourself or another, but are
+            experiencing a crisis, you may book your session in our scheduler.
+            We are here for you when you need us.
+          </li>
+          <li>
+            Scheduled calls are subject to {"Lisa's"} availability. Please try
+            to book all your calls in after you make your purchase to ensure
+            best availability.{" "}
+          </li>
+          <li>
+            Any form of conversation that is sexual or verbally abusive is not
+            tolerated. We have a coaching policy that lays out the rules around
+            that if it occurs. This form will need to be read and agreed to
+            prior to purchasing your coaching package.{" "}
+          </li>
+
+          {/* <li>
             Your Coach is a trained Life Coach and not a licensed Therapist or
             Counsellor. She cannot provide assistance for complex psychiatric
             problems or recommend medications. If you require help in these
@@ -53,8 +82,15 @@ export default function LandingDisclaimar({}: Props) {
             guidance, and a listening ear. While we strive to provide a safe and
             helpful environment, it is important to seek professional help for
             severe psychiatric issues or emergency situations.
-          </li>
+          </li> */}
         </ul>
+        <p className="text-gray-100 leading-7 text-lg z-20 mt-8">
+          The services provided by {"You've"} Got a Friend Chat and Mentor
+          Service are intended to offer support, guidance, and a listening ear.
+          While we strive to provide a safe and helpful environment, it is
+          important to seek professional help for severe psychiatric issues or
+          emergency situations.
+        </p>
       </div>
     </div>
   );

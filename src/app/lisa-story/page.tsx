@@ -1,5 +1,6 @@
 "use client";
 import Header from "@/components/Header";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import Footer from "@/components/Footer";
 import { Hepta_Slab } from "next/font/google";
@@ -47,7 +48,7 @@ export default function Page() {
               <br />
               <br />
               {
-                "Whether you prefer to dip your toes in the water with our 1-hour option or dive in for our 30 hour package, our prices are affordable and flexible. "
+                "Whether you prefer to dip your toes in the water with our 1-hour option or dive in for our 25 hours a month package, our prices are affordable and flexible. "
               }
               <br />
               <br />
@@ -55,6 +56,12 @@ export default function Page() {
                 "Take a look at our pricing options and if you have any questions at all, remember, we are just a click away!"
               }
             </motion.p>
+            <Link
+              href="/all-packages"
+              className="z-30 self-start bg-[#04ABD3] rounded uppercase px-8 py-2 text-white font-semibold"
+            >
+              Explore Packages
+            </Link>
             <div className={`${heptaSlab.className} z-30`}>
               <motion.h1
                 initial={{ x: 200, opacity: 0 }}
@@ -189,7 +196,12 @@ export default function Page() {
                 </li>
               </ul>
             </motion.p>
-
+            <Link
+              href="/all-packages"
+              className="z-30 self-start bg-[#04ABD3] rounded uppercase px-8 py-2 text-white font-semibold"
+            >
+              Explore Packages
+            </Link>
             <div className=" mx-auto lg:text-start text-center flex flex-col space-y-8 py-20">
               <div className={`${heptaSlab.className} z-30`}>
                 <motion.h1

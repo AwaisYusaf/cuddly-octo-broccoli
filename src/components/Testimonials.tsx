@@ -14,22 +14,22 @@ export default function Testimonials({}: Props) {
         </p>
       </div>
       <div className="flex flex-col items-center text-center space-y-3 lg:space-y-4 py-8 lg:py-12">
-        <h1 className="text-xl uppercase text-white underline underline-offset-4">
-          Testimonials
-        </h1>
+        {/* <h1 className="text-2xl uppercase text-white ">Testimonials</h1> */}
         <div className="text-center w-[90%] lg:w-[85%] mx-auto">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl mb-2 text-white">
+          <h2 className="text-lg md:text-3xl lg:text-4xl mb-2 text-white">
             Results I have helped create
           </h2>
-          <p className="text-xs uppercase text-gray-200">
+          <p className="text-sm uppercase text-gray-200">
             Hear out what my clients say about me.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] lg:w-[85%] mx-auto pt-4 lg:pt-12 gap-4">
+          <div></div>
           {testimonials.map((t: any, i: number) => {
             return <TestimonialCard key={i} data={t} />;
           })}
+          <div></div>
         </div>
       </div>
     </div>

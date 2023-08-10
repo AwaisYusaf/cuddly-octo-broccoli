@@ -13,7 +13,7 @@ export default function SectionTwo({}: Props) {
   return (
     <div className="w-[90%] lg:w-[85%] mx-auto flex flex-col space-y-6 py-8 lg:py-0">
       <div className="flex lg:flex-row flex-col">
-        <div className="flex items-start pt-4 justify-center lg:justify-start basis-1/2">
+        <div className="flex items-center pt-4 justify-center lg:justify-start basis-1/2">
           <Image
             src="/assets/section2-img1.jpg"
             alt=""
@@ -23,43 +23,47 @@ export default function SectionTwo({}: Props) {
           />
         </div>
 
-        <div className="basis-1/2 flex flex-col space-y-3">
-          <h2 className={`${heptaSlab.className} text-3xl my-4 font-semibold`}>
-            Helping individuals with PTSD, Anxiety, Depression and Loneliness
+        <div className="basis-1/2 flex flex-col space-y-2 pt-2">
+          <h2
+            className={`${heptaSlab.className} text-3xl my-4 font-semibold text-[#04ABD3]`}
+          >
+            HELP IS JUST A CLICK AWAY!
           </h2>
           <p className="text-lg leading-8 text-gray-700">
             {
-              "Welcome to You've Got a Friend Chatting and Mentoring service, where you'll find the support and guidance you've been seeking."
+              "At You’ve Got a Friend Chat and Mentor Service, we offer a unique service.  Our approach to support and guidance is anything but traditional. We recognized a gap in the market – the need for more frequent and flexible assistance than what's typically offered by the traditional Life Coaching Services out there."
             }
           </p>
           <p className="text-lg leading-8 text-gray-700">
-            {
-              "At times, we all yearn for someone to talk to, someone who understands and listens without judgment. But it's not always easy to find that person in our immediate circle without feeling like a burden or dampening the mood. That's where we come in."
-            }
+            At You’ve Got a Friend, we acknowledge that some people need more
+            support than just once a week which is the average frequency people
+            talk to a Coach or Counsellor. This realization led to the creation
+            of the You’ve Got a Friend Chat and Mentor Service, designed to
+            cater to those needs.
           </p>
+          <p className="text-lg leading-8 text-gray-700"></p>
         </div>
       </div>
 
       <div className="flex flex-col lg:flex-row">
         <div className="basis-1/2 flex flex-col space-y-3">
           <p className="text-lg leading-8 text-gray-700">
-            {
-              "Have you ever felt the need for a coach or mentor? Someone who can help you untangle your problems, explore potential solutions, hold you accountable to your goals, or simply be a neutral sounding board? Traditional coaching services can often be expensive, limiting your access to just one hour a week. We understand the frustration when you crave more frequent support, but your finances can't keep up with the monthly costs."
-            }
-          </p>
-          <p className="text-lg leading-8 text-gray-700">
-            {
-              "Introducing You've Got a Friend Chatting and Mentoring service, founded by Lisa Larson. We understand that sometimes you need more than a weekly conversation, so we offer various pricing plans tailored to your needs. Whether you prefer to dip your toes in the water with our 1-hour option or require up to 30 hours of speaking or coaching per month, our prices are affordable and designed to accommodate your requirements."
-            }
+            At You’ve Got a Friend Chat and Mentor service, we offer two types
+            of service. We offer talk therapy for those who just need someone to
+            talk to. Someone to talk to who will listen and support you without
+            judgement or criticism. Sometimes we just need someone to talk to
+            but either don’t want to be a “Debbie Downer” to our friends or
+            family or in some cases there are those who simply do not have
+            someone to talk to in their social circle for whatever reason.
+            <br />
+            The reasons to us do not matter, nor is it our business to know your
+            reason. We just see the need out there for a service to offer people
+            who need this kind of support in their lives for whatever their
+            personal reasons are.
           </p>
 
-          <p className="text-lg leading-8 text-gray-700">
-            {
-              "Take a look at our pricing options below. If you have any inquiries, please don't hesitate to reach out to us via email or chat. We're here to provide the support and companionship you've been searching for."
-            }
-          </p>
           <Link
-            href="/all-packages"
+            href="/about-us"
             className="self-start bg-[#9794C9] rounded uppercase px-8 py-2 text-white font-semibold"
           >
             Learn More
