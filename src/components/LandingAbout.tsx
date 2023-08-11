@@ -1,5 +1,6 @@
 import React from "react";
 import { Hepta_Slab } from "next/font/google";
+import Link from "next/link";
 const heptaSlab = Hepta_Slab({
   weight: ["300", "400", "500", "600", "800"],
   subsets: ["latin"],
@@ -7,7 +8,7 @@ const heptaSlab = Hepta_Slab({
 
 type Props = {};
 
-export default function LandingAbout({}: Props) {
+export default function LandingAbout({ }: Props) {
   return (
     <div className="relative z-20 bg-[url('/assets/landing-about.jpg')] bg-cover bg-center bg-no-repeat">
       <div className="absolute w-full h-full z-0 bg-white/70"></div>
@@ -36,9 +37,11 @@ export default function LandingAbout({}: Props) {
               "Currently, Lisa is expanding her expertise through a course on Neuro-wellness. This program focuses on managing an overstimulated and stressed brain, providing her with additional tools to help clients effectively address these challenges. With a diverse range of skills and knowledge acquired from her educational and professional background, Lisa possesses a vast toolkit to draw from to help serve you the best."
             }
           </p>
-          <button className="px-8 self-start tracking-wider font-semibold py-3 uppercase bg-blue-600 rounded text-white">
+          <Link href="/contact"
+
+            className="self-start bg-[#9794C9] rounded uppercase px-8 py-2 text-white font-semibold">
             Read More
-          </button>
+          </Link>
         </div>
 
         <div className="z-50 flex flex-col space-y-5 ">
@@ -55,9 +58,11 @@ export default function LandingAbout({}: Props) {
               "Viewing situations from an outside standpoint, Lisa offers insightful guidance without blame or criticism, empowering you to make positive changes. As a respectful coach, she will always seek your permission before offering her points of view."
             }
           </p>
-          <button className="px-8 self-start tracking-wider font-semibold py-3 uppercase bg-blue-600 rounded text-white">
+          <Link href="/all-packages"
+
+            className="self-start bg-[#9794C9] rounded uppercase px-8 py-2 text-white font-semibold">
             Read More
-          </button>
+          </Link>
         </div>
       </div>
     </div>

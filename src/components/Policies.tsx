@@ -194,7 +194,7 @@ export default function Policies({
           place. If you have purchased more than one session with us. If for any
           reason you are not satisfied with your service, then you are entitled
           to a refund for the remaining sessions booked. The procedure in these
-          cases will be that you will need to email us at info@ygafmentoring.com
+          cases will be that you will need to email us at info@ygafchatandmentor.com
           with your reason for wanting a refund. Your opinions are important to
           us so we will use that as feedback to help to continually better and
           improve our services. We will refund you for any remaining sessions
@@ -225,9 +225,8 @@ export default function Policies({
           </div>
           <button
             disabled={!isAccepted}
-            className={`py-2 px-6 rounded bg-purple-700 text-white font-medium mr-3 ${
-              isAccepted ? "opacity-100" : "opacity-40"
-            }`}
+            className={`py-2 px-6 rounded bg-purple-700 text-white font-medium mr-3 ${isAccepted ? "opacity-100" : "opacity-40"
+              }`}
             onClick={() => setSelectedTab(2)}
           >
             Continue
