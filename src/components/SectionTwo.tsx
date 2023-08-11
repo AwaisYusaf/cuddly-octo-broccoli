@@ -9,7 +9,7 @@ const heptaSlab = Hepta_Slab({
 
 type Props = {};
 
-export default function SectionTwo({}: Props) {
+export default function SectionTwo({ }: Props) {
   return (
     <div className="w-[90%] lg:w-[85%] mx-auto flex flex-col space-y-6 py-8 lg:py-0">
       <div className="flex lg:flex-row flex-col">
@@ -63,10 +63,9 @@ export default function SectionTwo({}: Props) {
           </p>
 
           <Link
-            href="/about-us"
+            href="/all-packages"
             className="self-start bg-[#9794C9] rounded uppercase px-8 py-2 text-white font-semibold"
-          >
-            Learn More
+          >Book Now
           </Link>
         </div>
         <div className="flex items-center justify-center lg:justify-end basis-1/2">
