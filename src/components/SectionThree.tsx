@@ -9,7 +9,7 @@ export default function SectionThree({ }: Props) {
     <div className="flex flex-col space-y-5 items-center py-12 lg:py-20 px-6 overflow-x-hidden">
       <motion.div
         initial={{ scale: 0.1, opacity: 0.5 }}
-        whileInView={{ scale: [0.1, 1, 1.1, 1], opacity: 1 }}
+        whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1.2 }}
         viewport={{ once: true }}
       >
