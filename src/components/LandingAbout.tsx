@@ -40,7 +40,7 @@ export default function LandingAbout({ }: Props) {
           <Link href="/contact"
 
             className="self-start bg-[#9794C9] rounded uppercase px-8 py-2 text-white font-semibold">
-            Read More
+            Contact Us
           </Link>
         </div>
 
@@ -61,7 +61,7 @@ export default function LandingAbout({ }: Props) {
           <Link href="/all-packages"
 
             className="self-start bg-[#9794C9] rounded uppercase px-8 py-2 text-white font-semibold">
-            Read More
+            Book Now
           </Link>
         </div>
       </div>

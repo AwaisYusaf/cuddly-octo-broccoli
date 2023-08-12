@@ -2,7 +2,7 @@ import React from "react";
 
 type Props = {};
 
-export default function LandingDisclaimar({}: Props) {
+export default function LandingDisclaimar({ }: Props) {
   return (
     <div className="relative bg-[url('/assets/disclaimar.jpg')] bg-cover bg-top bg-fixed bg-no-repeat">
       <div className="absolute w-full bg-[#444745]/80 h-full z-10"></div>
@@ -11,7 +11,7 @@ export default function LandingDisclaimar({}: Props) {
           DISCLAIMER
         </h1>
         <ul
-          className="text-gray-100 leading-7 text-lg z-20 list-outside list-disc 
+          className="text-gray-100 leading-7 lg:text-lg text-base z-20 list-outside list-disc 
         flex flex-col space-y-2"
         >
           <li>

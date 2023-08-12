@@ -4,21 +4,21 @@ import TestimonialCard from "./TestimonialCard";
 
 type Props = {};
 
-export default function Testimonials({}: Props) {
+export default function Testimonials({ }: Props) {
   return (
     <div className="tm-bg2">
-      <div className="py-8 border-y border-gray-400 bg-white">
+      {/* <div className="py-8 border-y border-gray-400 bg-white">
         <p className="mx-auto lg:text-2xl font-semibold lg:font-medium text-center w-[95%] md:w-[90%] lg:w-[80%]">
           <span className="text-blue-500">Lisa</span> looks forward to speaking
           with you about any trials you wish to share.
         </p>
-      </div>
-      <div className="flex flex-col items-center text-center space-y-3 lg:space-y-4 py-8 lg:py-12">
-        {/* <h1 className="text-2xl uppercase text-white ">Testimonials</h1> */}
-        <div className="text-center w-[90%] lg:w-[85%] mx-auto">
-          <h2 className="text-lg md:text-3xl lg:text-4xl mb-2 text-white">
+      </div> */}
+      <div className="flex flex-col items-center text-center py-8 lg:py-12">
+        <div className="text-center w-[90%] lg:w-[85%] mx-auto space-y-2">
+          <h1 className="text-3xl uppercase text-white font-semibold">Testimonials</h1>
+          {/* <h2 className="text-lg md:text-3xl lg:text-4xl mb-2 text-white">
             Results I have helped create
-          </h2>
+          </h2> */}
           <p className="text-sm uppercase text-gray-200">
             Hear out what my clients say about me.
           </p>

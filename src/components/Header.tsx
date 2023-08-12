@@ -32,9 +32,8 @@ export default function Header({ selected }: Props) {
             initial={{ y: -200 }}
             whileInView={{ y: 0 }}
             transition={{ type: "spring", stiffness: 1000, damping: 150 }}
-            className={`left-0 ${
-              menuOpen ? "flex" : "hidden"
-            } flex-col px-4 py-6 bg-white text-gray-500 top-24 z-40 absolute h-[400px]  w-full`}
+            className={`left-0 ${menuOpen ? "flex" : "hidden"
+              } flex-col px-4 py-6 bg-white text-gray-500 top-24 z-40 absolute h-[400px]  w-full`}
           >
             <Link
               href="/"
@@ -76,11 +75,10 @@ export default function Header({ selected }: Props) {
             <div
               className={`absolute top-0  z-20 h-[120px] w-full 
             transition-transform duration-300 transform-translate 
-            ${
-              selected == "home"
-                ? "translate-y-0 bg-red-600"
-                : "-translate-y-48 group-hover:translate-y-0 bg-black"
-            } `}
+            ${selected == "home"
+                  ? "translate-y-0 bg-red-600"
+                  : "-translate-y-48 group-hover:translate-y-0 bg-black"
+                } `}
             ></div>
             <p className="z-50 text-center w-full group-hover:text-white">
               Home
@@ -92,11 +90,10 @@ export default function Header({ selected }: Props) {
           >
             <div
               className={`absolute top-0
-              ${
-                selected == "lisa-story"
+              ${selected == "lisa-story"
                   ? "translate-y-0 bg-red-600"
                   : "-translate-y-48 group-hover:translate-y-0 bg-black"
-              }
+                }
               
               z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
             ></div>
@@ -110,11 +107,10 @@ export default function Header({ selected }: Props) {
             className="relative border-l h-[100px]  flex items-center justify-center group px-5 text-center"
           >
             <div
-              className={`absolute  ${
-                selected == "packages"
-                  ? "translate-y-0 bg-red-600"
-                  : "-translate-y-48 group-hover:translate-y-0 bg-black"
-              } top-0 z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
+              className={`absolute  ${selected == "packages"
+                ? "translate-y-0 bg-red-600"
+                : "-translate-y-48 group-hover:translate-y-0 bg-black"
+                } top-0 z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
             ></div>
             <p className="z-50 text-center w-full group-hover:text-white">
               Packages
@@ -126,27 +122,38 @@ export default function Header({ selected }: Props) {
             className="relative border-x h-[100px] flex  items-center justify-center group px-5 text-center"
           >
             <div
-              className={`absolute top-0  ${
-                selected == "blog"
-                  ? "translate-y-0 bg-red-600"
-                  : "-translate-y-48 group-hover:translate-y-0 bg-black"
-              }  z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
+              className={`absolute top-0  ${selected == "blog"
+                ? "translate-y-0 bg-red-600"
+                : "-translate-y-48 group-hover:translate-y-0 bg-black"
+                }  z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
             ></div>
             <p className="z-50 text-center w-full group-hover:text-white">
               Blog
             </p>
           </Link>
-
+          <Link
+            href="/terms-and-conditions"
+            className="relative border-x h-[100px] flex  items-center justify-center group px-5 text-center"
+          >
+            <div
+              className={`absolute top-0  ${selected == "terms-and-conditions"
+                ? "translate-y-0 bg-red-600"
+                : "-translate-y-48 group-hover:translate-y-0 bg-black"
+                }  z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
+            ></div>
+            <p className="z-50 text-center w-full group-hover:text-white">
+              Terms & Conditions
+            </p>
+          </Link>
           <Link
             href="/contact"
             className="relative border-x h-[100px] flex  items-center justify-center group px-5 text-center"
           >
             <div
-              className={`absolute top-0  ${
-                selected == "contact"
-                  ? "translate-y-0 bg-red-600"
-                  : "-translate-y-48 group-hover:translate-y-0 bg-black"
-              }  z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
+              className={`absolute top-0  ${selected == "contact"
+                ? "translate-y-0 bg-red-600"
+                : "-translate-y-48 group-hover:translate-y-0 bg-black"
+                }  z-20 h-[120px] w-full transition-transform duration-300 transform-translate`}
             ></div>
             <p className="z-50 text-center w-full group-hover:text-white">
               Contact

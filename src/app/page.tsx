@@ -18,9 +18,9 @@ export default function Home() {
       <SectionThree />
       <AboutMeLanding />
       <LandingAbout />
-      <LandingDisclaimar />
       <LandingPricing />
       <Testimonials />
+      <LandingDisclaimar />
       <Footer />
     </main>
   );

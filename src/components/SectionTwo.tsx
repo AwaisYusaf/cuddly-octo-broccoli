@@ -30,37 +30,47 @@ export default function SectionTwo({ }: Props) {
             HELP IS JUST A CLICK AWAY!
           </h2>
           <p className="text-lg leading-8 text-gray-700">
-            {
-              "At You’ve Got a Friend Chat and Mentor Service, we offer a unique service.  Our approach to support and guidance is anything but traditional. We recognized a gap in the market – the need for more frequent and flexible assistance than what's typically offered by the traditional Life Coaching Services out there."
-            }
+            At You’ve Got a Friend Chat and Mentor Service, we offer a unique service. Our approach to support and guidance is anything but traditional. We recognized a gap in the market – the need for more frequent and flexible help than what's typically offered by traditional Life Coaching Services out there.
+
           </p>
           <p className="text-lg leading-8 text-gray-700">
-            At You’ve Got a Friend, we acknowledge that some people need more
-            support than just once a week which is the average frequency people
-            talk to a Coach or Counsellor. This realization led to the creation
-            of the You’ve Got a Friend Chat and Mentor Service, designed to
-            cater to those needs.
+
+            At You’ve Got a Friend, we acknowledge that some people need to talk to someone more frequently than just once a week which is the average time that people talk to a Coach or Counsellor. This is where You've Got a Friend Coaching and Mentoring was born!
+
+
           </p>
-          <p className="text-lg leading-8 text-gray-700"></p>
+          <p className="text-lg leading-8 text-gray-700">
+
+          </p>
         </div>
       </div>
 
       <div className="flex flex-col lg:flex-row">
         <div className="basis-1/2 flex flex-col space-y-3">
           <p className="text-lg leading-8 text-gray-700">
-            At You’ve Got a Friend Chat and Mentor service, we offer two types
-            of service. We offer talk therapy for those who just need someone to
-            talk to. Someone to talk to who will listen and support you without
-            judgement or criticism. Sometimes we just need someone to talk to
-            but either don’t want to be a “Debbie Downer” to our friends or
-            family or in some cases there are those who simply do not have
-            someone to talk to in their social circle for whatever reason.
-            <br />
-            The reasons to us do not matter, nor is it our business to know your
-            reason. We just see the need out there for a service to offer people
-            who need this kind of support in their lives for whatever their
-            personal reasons are.
+            At You’ve Got a Friend Chat and Mentor service, we offer three options, talk therapy, coaching/mentoring or healing sessions designed to help with stress. Our talk therapy sessions are designed for those who just want to talk to someone about whatever ails you. Sometimes we just need someone to talk to but either don’t want to be a “Debbie Downer” to our friends or family or in some cases there are those who simply do not have someone to talk to in their social circle for whatever reason. Whatever the reason, we don't need to know, we are here to lend that supportive listening ear and be that friend on the other end of the phone who you can talk to without judegment or criticism.  We also offer you the option of Coaching or Mentoring in your sessions if that is what you so desire.  You have the option to choose what you want during your calls.  You are in charge.
+
           </p>
+          <h2
+            className={`${heptaSlab.className} text-3xl my-4 font-semibold text-[#04ABD3]`}
+          >
+            Pricing
+
+          </h2>
+
+          <p className="text-lg leading-8 text-gray-700">
+            Check out our pricing/packages below.  At You've Got a Friend Chat and Mentor Service, we wanted to offer a more affordable service to those who need help but maybe cannot access it as the traditional $100 on average price per hour session is not within their budget.  That is why we came up with pricing/packaging options that give people an opportunity to talk more often to someone and not break the bank.
+          </p>
+
+
+          <p className="text-lg leading-8 text-gray-700">
+            Please check out our affordable options below and remember, we are only a click away for help and assistance for whatever your needs may be.
+          </p>
+
+
+
+
+
 
           <Link
             href="/all-packages"
