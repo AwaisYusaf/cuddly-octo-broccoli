@@ -9,15 +9,15 @@ const heptaSlab = Hepta_Slab({
 
 type Props = {};
 
-export default function AboutMeLanding({}: Props) {
+export default function AboutMeLanding({ }: Props) {
   const [showMore, setShowMore] = useState(false);
   return (
     <div className="flex flex-col space-y-8 lg:space-y-12 w-[90%] lg:w-[85%] mx-auto">
       <h2 className={`${heptaSlab.className} text-3xl font-semibold`}>
-        {"Lisa's Story"}
+        {"My Story"}
       </h2>
       <Image
-        src="/assets/about-me-landing.jpg"
+        src="/assets/about-me-landing2.jpg"
         width={500}
         height={500}
         alt=""

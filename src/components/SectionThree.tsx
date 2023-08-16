@@ -4,7 +4,14 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 type Props = {};
+
+
+
+
+
 export default function SectionThree({ }: Props) {
+
+
   return (
     <div className="flex flex-col space-y-5 items-center py-12 lg:py-20 px-6 overflow-x-hidden">
       <motion.div
