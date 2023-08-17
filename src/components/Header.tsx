@@ -54,6 +54,12 @@ export default function Header({ selected }: Props) {
               Packages
             </Link>
             <Link
+              href="/terms-and-conditions"
+              className="text-2xl border-b border-gray-300 py-3  font-medium"
+            >
+              Terms & Conditions
+            </Link>
+            <Link
               href="/blog"
               className="text-2xl  border-b border-gray-300 py-3 font-medium"
             >
@@ -131,7 +137,7 @@ export default function Header({ selected }: Props) {
               Blog
             </p>
           </Link>
-          {/* <Link
+          <Link
             href="/terms-and-conditions"
             className="relative border-x h-[100px] flex  items-center justify-center group px-5 text-center"
           >
@@ -144,7 +150,7 @@ export default function Header({ selected }: Props) {
             <p className="z-50 text-center w-full group-hover:text-white">
               Terms & Conditions
             </p>
-          </Link> */}
+          </Link>
           <Link
             href="/contact"
             className="relative border-x h-[100px] flex  items-center justify-center group px-5 text-center"

@@ -2,7 +2,7 @@ import React from "react";
 
 type Props = {};
 
-export default function Section1({}: Props) {
+export default function Section1({ }: Props) {
   return (
     <div className="relative bg-cover bg-top bg-fixed bg-no-repeat">
       {/* <div className="absolute w-full bg-[#444745]/80 h-full z-10"></div> */}
