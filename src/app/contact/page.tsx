@@ -1,11 +1,10 @@
 "use client";
 import Header from "@/components/Header";
 import { useState } from "react";
-
-import { SiPhonepe, SiGooglemaps } from "react-icons/si";
 import { HiLocationMarker, HiPhone, HiMail } from "react-icons/hi";
-import { AiFillPhone } from "react-icons/ai";
-import { MdLocationOn } from "react-icons/md";
+
+
+
 import { useForm } from "react-hook-form";
 import Footer from "@/components/Footer";
 type FormType = {
