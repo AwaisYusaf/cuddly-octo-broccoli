@@ -16,9 +16,9 @@ export default function Page({ }: Props) {
                         <h1 className="font-semibold text-5xl z-20 mb-8">TERMS AND CONDITIONS</h1>
                         <div className=" leading-8 text-base lg:text-lg z-20 list-outside list-disc 
     flex flex-col space-y-6">
-                            <p className="">
+                            <p className="">{`
                                 These terms and conditions (the "Terms and Conditions") govern the use of ygafchatandmentor.com
-                                (the "Site"). This Site is owned and operated by Lisa Larson. This Site is an ecommerce website.
+                                (the "Site"). This Site is owned and operated by Lisa Larson. This Site is an ecommerce website.`}
                             </p>
                             <p>By using this Site, you indicate that you have read and understand these Terms and Conditions and
                                 agree to abide by them at all times</p>
