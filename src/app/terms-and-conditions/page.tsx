@@ -207,7 +207,19 @@ export default function Page({ }: Props) {
                                     notice on our Site
                                 </p>
                             </div>
-
+                            <div>
+                                <h2 className="font-bold underline">Contact Details</h2>
+                                <p>Please contact us if you have any questions or concerns. Our contact details are as follows:
+                                </p>
+                                <div className="my-4 py-4 border-y border-gray-400 w-fit" >
+                                    <a href="mailto:info@ygafchatandmentor.com">
+                                        <strong>
+                                            info@ygafchatandmentor.com
+                                        </strong>
+                                    </a>
+                                </div>
+                                <p>You can also contact us through the feedback form available on our Site.</p>
+                            </div>
 
 
 
