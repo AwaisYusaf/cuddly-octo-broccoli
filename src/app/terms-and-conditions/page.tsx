@@ -56,20 +56,20 @@ export default function Page({ }: Props) {
                             <div>
                                 <h2 className="font-bold underline">Accounts</h2>
                                 <p>
-                                    When you create an account on our Site, you agree to the following:
-                                    <ol className="list-decimal list-inside my-3">
-                                        <li>
-                                            You are solely responsible for your account and the security and privacy of your account,
-                                            including passwords or sensitive information attached to that account
+                                    When you create an account on our Site, you agree to the following:</p>
+                                <ol className="list-decimal list-inside my-3">
+                                    <li>
+                                        You are solely responsible for your account and the security and privacy of your account,
+                                        including passwords or sensitive information attached to that account
 
-                                        </li>
-                                        <li>All personal information you provide to us through your account is up to date, accurate, and
-                                            truthful and that you will update your personal information if it changes
-                                        </li>
-                                    </ol>
-                                    <p>We reserve the right to suspend or terminate your account if you are using our Site illegally or if you
-                                        violate these Terms and Conditions.
-                                    </p>
+                                    </li>
+                                    <li>All personal information you provide to us through your account is up to date, accurate, and
+                                        truthful and that you will update your personal information if it changes
+                                    </li>
+                                </ol>
+                                <p>We reserve the right to suspend or terminate your account if you are using our Site illegally or if you
+                                    violate these Terms and Conditions.
+
                                 </p>
                             </div>
                             <div>
@@ -79,7 +79,7 @@ export default function Page({ }: Props) {
                                 </p>
                                 <p>The following services are available on our Site:</p>
                                 <ul className="list-disc list-inside my-3">
-                                    <li>nline Coaching and Mentoring.</li>
+                                    <li>Online Coaching and Mentoring.</li>
                                 </ul>
                                 <p>
                                     The services will be paid for in full when the services are ordered.
@@ -115,6 +115,42 @@ export default function Page({ }: Props) {
                                 </p>
                                 <p>If we believe your payment has violated any law or these Terms and Conditions, we reserve the right to
                                     cancel or reverse your transaction.</p>
+
+                            </div>
+
+                            <div>
+
+                                <h2 className="font-bold underline">Refunds</h2>
+
+
+                                <p>We provide refunds for services sold on our Site as follows:</p>
+
+                                <ul className="list-disc list-inside">
+                                    <li>If you are not satisfied and have purchased a package of sessions of 5 or more, then you may ask
+                                        for a refund for any unused sessions less a 20% administration fee off of the refunded hours not
+                                        used. If you require this refund, the procedure is to email us at info@ygafchatandmentor.com
+                                        letting us know reason for refund request. We will use that information as feedback. After you
+                                        send the email, we will process your refund back to the same method of payment used upon
+                                        purchasing. Please allow the recommended time for your bank to process the refund back to
+                                        your account.</li>
+                                </ul>
+
+                            </div>
+
+
+
+                            <div>
+
+                                <h2 className="font-bold underline">Guarantees</h2>
+
+
+                                <p>The following guarantees apply to our Site:</p>
+
+                                <ul className="list-disc list-inside">
+                                    <li>
+                                        We offer a satisfaction guarantee. If you are not happy, simply email us with your reason and
+                                        we will refund any remaining sessions less a 20% administration fee off of the refund amount..</li>
+                                </ul>
 
                             </div>
 
