@@ -14,12 +14,31 @@ type FormType = {
   message: string;
 };
 
+type submitStatusType = "success" | "error" | "not-started";
+
+
 export default function Page() {
-  const [isSubmitted, setSubmitted] = useState(false);
+  const [isSubmitted, setSubmitted] = useState<submitStatusType>("not-started");
+  const [submitInProgress, setSubmitInProgress] = useState<boolean>(false);
+
+
   const { register, handleSubmit } = useForm<FormType>();
 
-  function handleForm(e: FormType) {
-    setSubmitted(true);
+  async function handleForm(e: FormType) {
+    setSubmitInProgress(true);
+    //Send email.
+    const res = await fetch("/api/submit-contact-form", {
+      method: "POST",
+      body: JSON.stringify(e),
+    });
+    const { status } = await res.json();
+    if (status === "success") {
+      setSubmitted("success");
+    }
+    else {
+      setSubmitted("error");
+    }
+
   }
 
   return (
@@ -69,14 +88,24 @@ export default function Page() {
               </a>
             </div>
             <div className="flex lg:w-[85%] w-full mx-auto flex-col lg:flex-row">
-              {isSubmitted ? (
-                <div className=" bg-[#4E244D91] flex flex-col justify-center py-6 px-4 lg:space-y-0 space-y-4">
-                  <p className="text-white text-lg text-center w-full py-3 border border-white">
+
+              {
+                isSubmitted == "success" && <div className="mx-auto bg-[#4E244D91] flex flex-col justify-center py-6 px-4 lg:space-y-0 space-y-4 w-full">
+                  <p className="mx-auto text-white text-lg text-center w-full py-3 px-4 border border-white">
                     Thanks for contacting us!
                   </p>
                 </div>
-              ) : (
-                <form
+              }
+              {
+                isSubmitted == "error" && <div className="mx-auto bg-red-100 flex flex-col justify-center py-6 px-4 lg:space-y-0 space-y-4 w-full">
+                  <p className="mx-auto font-bold text-red-600 text-lg text-center w-full py-3 px-4 border border-red-600">
+                    Error sending your message. Please try again later.
+                  </p>
+                </div>
+              }
+
+              {
+                isSubmitted == "not-started" && <form
                   onSubmit={handleSubmit(handleForm)}
                   className="mx-auto lg:w-[68%] md:w-[80%] w-[90%] bg-[#4E244D91] flex gap-y-2 flex-col justify-between py-6 px-4 lg:space-y-0 space-y-4"
                 >
@@ -103,14 +132,25 @@ export default function Page() {
                     placeholder="Message"
                     className="p-3 focus:outline-none min-h-[150px] text-sm"
                   />
-                  <button
-                    type="submit"
-                    className="w-full uppercase bg-black text-white font-bold text-sm py-4"
-                  >
-                    Send
-                  </button>
+                  {submitInProgress ?
+                    <button
+                      disabled
+                      type="submit"
+                      className="w-full uppercase opacity-70 bg-black text-white font-bold text-sm py-4"
+                    >
+                      Sending...
+                    </button>
+                    :
+                    <button
+                      type="submit"
+                      className="w-full uppercase bg-black text-white font-bold text-sm py-4"
+                    >
+                      Send
+                    </button>
+                  }
                 </form>
-              )}
+              }
+
             </div>
           </div>
         </div>
