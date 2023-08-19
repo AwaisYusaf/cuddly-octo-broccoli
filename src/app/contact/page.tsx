@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 type FormType = {
   name: string;
   email: string;
-  number: string;
+  number: string | null;
   message: string;
 };
 

@@ -16,16 +16,11 @@ const transporter = nodemailer.createTransport({
 
 
 
-export async function POST(req: NextRequest) {
-    const data = await req.json();
 
-    const { name, email, number, message } = data;
-
-    const from = `${name} <${email}>`;
+function sendMail(name: string, email: string, number: string, message: string) {
+    const from = `${name} <lisalynn512@gmail.com>`;
     const subject = `Contact Form Submission from ${name}`;
     const text = `Name: ${name}\nEmail: ${email}\nNumber: ${number ? number : "N/A"}\nMessage: ${message}`;
-
-
     const mailOptions = {
         from,
         to: "info@ygafchatandmentor.com",
@@ -33,13 +28,25 @@ export async function POST(req: NextRequest) {
         text: text
     };
 
-    transporter.sendMail(mailOptions, (error, info) => {
-        if (error) {
-            console.log("Failed to send mail", error);
-            return NextResponse.json({ status: "error", error });
-        } else {
-            console.log("Mail sent", info)
-            return NextResponse.json({ status: "success", info });
-        }
-    });
+    try {
+        transporter.sendMail(mailOptions, (error, info) => {
+            if (error) {
+                console.log("Failed to send mail", error);
+            } else {
+                console.log("Mail sent", info)
+            }
+        });
+    }
+    catch (e: any) {
+        console.log(e)
+    }
+}
+
+
+
+export async function POST(req: NextRequest) {
+    const data = await req.json();
+    const { name, email, number, message } = data;
+    sendMail(name, email, number, message);
+    return NextResponse.json({ status: "success" })
 }
