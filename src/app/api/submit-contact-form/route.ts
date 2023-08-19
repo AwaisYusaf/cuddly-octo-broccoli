@@ -35,7 +35,7 @@ export async function POST(req: NextRequest) {
 
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
-            console.log("Failed to send mail")
+            console.log("Failed to send mail", error);
             return NextResponse.json({ status: "failed" });
         } else {
             console.log("Mail sent", info)
