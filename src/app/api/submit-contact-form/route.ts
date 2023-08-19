@@ -17,7 +17,7 @@ const transporter = nodemailer.createTransport({
 
 
 
-function sendMail(name: string, email: string, number: string, message: string) {
+async function sendMail(name: string, email: string, number: string, message: string) {
     const from = `${name} <lisalynn512@gmail.com>`;
     const subject = `Contact Form Submission from ${name}`;
     const text = `Name: ${name}\nEmail: ${email}\nNumber: ${number ? number : "N/A"}\nMessage: ${message}`;
@@ -28,18 +28,20 @@ function sendMail(name: string, email: string, number: string, message: string) 
         text: text
     };
 
-    try {
-        transporter.sendMail(mailOptions, (error, info) => {
-            if (error) {
-                console.log("Failed to send mail", error);
+
+    await new Promise((resolve, reject) => {
+        transporter.sendMail(mailOptions, (err, info) => {
+            if (err) {
+                console.error(err);
+                reject(err);
             } else {
-                console.log("Mail sent", info)
+                resolve(info);
             }
         });
-    }
-    catch (e: any) {
-        console.log(e)
-    }
+    });
+
+
+
 }
 
 
