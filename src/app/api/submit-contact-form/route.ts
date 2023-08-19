@@ -18,6 +18,16 @@ const transporter = nodemailer.createTransport({
 
 
 async function sendMail(name: string, email: string, number: string, message: string) {
+
+}
+
+
+
+export async function POST(req: NextRequest) {
+    const data = await req.json();
+    const { name, email, number, message } = data;
+    //sendMail(name, email, number, message);
+
     const from = `${name} <lisalynn512@gmail.com>`;
     const subject = `Contact Form Submission from ${name}`;
     const text = `Name: ${name}\nEmail: ${email}\nNumber: ${number ? number : "N/A"}\nMessage: ${message}`;
@@ -28,27 +38,27 @@ async function sendMail(name: string, email: string, number: string, message: st
         text: text
     };
 
+    let mailSent = false;
 
     await new Promise((resolve, reject) => {
         transporter.sendMail(mailOptions, (err, info) => {
             if (err) {
-                console.error(err);
-                reject(err);
+                console.log(err);
+                reject();
             } else {
-                resolve(info);
+                mailSent = true;
+                resolve({ status: "success" });
             }
         });
     });
 
+    if (mailSent) {
+        return NextResponse.json({ status: "success" })
+    }
+    else {
+        return NextResponse.json({ status: "error" })
+    }
 
 
-}
 
-
-
-export async function POST(req: NextRequest) {
-    const data = await req.json();
-    const { name, email, number, message } = data;
-    sendMail(name, email, number, message);
-    return NextResponse.json({ status: "success" })
 }

@@ -32,6 +32,9 @@ export default function Page() {
       body: JSON.stringify(e),
     });
     const data = await res.json();
+    console.log("DATA:", data);
+
+
     if (data.status === "success") {
       console.log(data.info)
       setSubmitted("success");
