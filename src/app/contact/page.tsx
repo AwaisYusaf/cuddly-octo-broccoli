@@ -31,11 +31,13 @@ export default function Page() {
       method: "POST",
       body: JSON.stringify(e),
     });
-    const { status } = await res.json();
-    if (status === "success") {
+    const data = await res.json();
+    if (data.status === "success") {
+      console.log(data.info)
       setSubmitted("success");
     }
     else {
+      console.log(data.error)
       setSubmitted("error");
     }
 

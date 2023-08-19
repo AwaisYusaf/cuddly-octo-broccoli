@@ -36,13 +36,10 @@ export async function POST(req: NextRequest) {
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
             console.log("Failed to send mail", error);
-            return NextResponse.json({ status: "failed" });
+            return NextResponse.json({ status: "error", error });
         } else {
             console.log("Mail sent", info)
-            return NextResponse.json({ status: "success" });
+            return NextResponse.json({ status: "success", info });
         }
     });
-
-
-    return NextResponse.json({ status: "success" });
 }
