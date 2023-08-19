@@ -110,25 +110,25 @@ export default function Page() {
                   className="mx-auto lg:w-[68%] md:w-[80%] w-[90%] bg-[#4E244D91] flex gap-y-2 flex-col justify-between py-6 px-4 lg:space-y-0 space-y-4"
                 >
                   <input
-                    {...register("name")}
+                    {...register("name", { required: true })}
                     placeholder="Name"
                     type="text"
                     className="p-3 focus:outline-none text-sm"
                   />
                   <input
-                    {...register("email")}
+                    {...register("email", { required: true })}
                     placeholder="Email"
                     type="text"
                     className="p-3 focus:outline-none text-sm"
                   />
                   <input
                     {...register("number")}
-                    placeholder="Number"
+                    placeholder="Phone Number (Optional)"
                     type="text"
                     className="p-3 focus:outline-none text-sm"
                   />
                   <textarea
-                    {...register("message")}
+                    {...register("message", { required: true })}
                     placeholder="Message"
                     className="p-3 focus:outline-none min-h-[150px] text-sm"
                   />

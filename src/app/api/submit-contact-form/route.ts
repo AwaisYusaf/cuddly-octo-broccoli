@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
 
     const from = `${name} <${email}>`;
     const subject = `Contact Form Submission from ${name}`;
-    const text = `Name: ${name}\nEmail: ${email}\nNumber: ${number}\nMessage: ${message}`;
+    const text = `Name: ${name}\nEmail: ${email}\nNumber: ${number ? number : "N/A"}\nMessage: ${message}`;
 
 
     const mailOptions = {
@@ -35,8 +35,10 @@ export async function POST(req: NextRequest) {
 
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
+            console.log("Failed to send mail")
             return NextResponse.json({ status: "failed" });
         } else {
+            console.log("Mail sent", info)
             return NextResponse.json({ status: "success" });
         }
     });
